@@ -2,18 +2,19 @@
 <html lang="fr" dir="ltr"> 
 
 <head>
-  <meta charset="utf-8">
   <title>Développeur Web Drupal Freelance | ApolloNet</title>
-  <meta name="geo.placename" content="Rouen, Normandie, France" />
-  <link rel="profile" href="http://microformats.org/profile/hcard" />
-  <meta name="author" content="ApolloNet" />
-  <meta name="description" content="ApolloNet est située à Rouen, Normandie : Création de Site Internet, Développement Web, Intégration, Expertise CMS Drupal." />
-  <meta name="keywords" content="développeur, web, freelance, drupal, intégration, rouen, normandie, apollonet, ronsaut" />
-  <meta name="Robots" content="index,follow,all" />
-  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-  <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr" /><?php endif; ?>
-  <link rel="stylesheet" type="text/css" media="all" href="style.min.css" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+  <link rel="profile" href="http://microformats.org/profile/hcard">
+  <meta charset="utf-8">
+  <meta http-equiv="content-language" content="fr">
+  <meta name="geo.placename" content="Rouen, Normandie, France">
+  <meta name="author" content="ApolloNet">
+  <meta name="description" content="ApolloNet est située à Rouen, Normandie : Création de Site Internet, Développement Web, Intégration, Expertise CMS Drupal.">
+  <meta name="keywords" content="développeur, web, freelance, drupal, intégration, rouen, normandie, apollonet, ronsaut">
+  <meta name="Robots" content="index,follow,all">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr"><?php endif; ?>
+  <link rel="stylesheet" type="text/css" media="all" href="style.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/ico">
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
@@ -21,7 +22,7 @@
 
 <header id="top">
   <div>
-    <h1><img src="images/logo.png" alt="Logo" width="70" height="71" /> Apollo<span>Net</span></h1>
+    <h1><img src="images/logo.png" alt="Logo" width="70" height="71"> Apollo<span>Net</span></h1>
   </div>
 </header>
 
@@ -107,7 +108,7 @@
       <li>Référencement naturel</li>
       <li>Optimisation des performances web</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet nologo">
@@ -126,7 +127,7 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet autrecercle">
@@ -142,7 +143,7 @@
       <li>Groupes de travail</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet spreadbutton">
@@ -151,7 +152,7 @@
       <p class="date"><time datetime="2013-06-11">Juin 2013</time></p>
     </a>
     <p>Création d'un module Drupal pour intégrer le service <a href="http://sb.am" title="Site du service Spreadbutton" rel="external">Spreadbutton</a> avec <a href="http://www.drupalcommerce.org" title="Drupal Commerce" rel="external">Drupal Commerce</a>.</p>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet rouen">
@@ -172,7 +173,7 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet aen">
@@ -185,7 +186,7 @@
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet tdp13">
@@ -198,7 +199,7 @@
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet frb">
@@ -217,7 +218,7 @@
       <li>Référencement naturel</li>
       <li>Optimisation des performances web</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet aen">
@@ -240,7 +241,7 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet tdp12">
@@ -261,7 +262,7 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet sartory">
@@ -276,7 +277,7 @@
       <li>Système multi-langue</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet rouen">
@@ -290,7 +291,7 @@
       <li>Développement et intégration Drupal</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet aen">
@@ -299,7 +300,7 @@
       <p class="date"><time datetime="2012-02-20">Février 2012</time></p>
     </a>
     <p>Rédaction du cahier des charges techniques et fonctionnelles pour les festivals <strong>Terres de Paroles</strong> et <a href="http://automne-en-normandie.com" title="Site internet d'Automne en Normandie" rel="external">Automne en Normandie</a>.</p>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet ciamt">
@@ -317,7 +318,7 @@
       <li>Formulaires avec envoi de courriels</li>
       <li>Règlage fin des rôles et permissions par catégorie</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet keynit">
@@ -332,7 +333,7 @@
       <li>Intégration HTML / CSS</li>
       <li>Paramétrage des Views</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet cnp">
@@ -348,7 +349,7 @@
       <li>Thème Drupal et Intégration HTML, CSS et Jquery</li>
       <li>Paramétrage des Views</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet mao">
@@ -362,7 +363,7 @@
       <li>Direction artistique</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
 
   <article class="projet jmm">
@@ -380,7 +381,7 @@
       <li>Référencement naturel</li>
       <li>Optimisation des performances Drupal</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet aen">
@@ -394,7 +395,7 @@
       <li>Intégration HTML5 et CSS3</li>
       <li>Développement PHP et Jquery</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet memurb">
@@ -410,7 +411,7 @@
       <li>Site web mobile</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet dowego">
@@ -420,7 +421,7 @@
     </a>
     <p>Conseil en architecture Drupal sur <a href="http://dowego.org" title="Site internet de Dowego" rel="external">Dowego</a>, plateforme collaborative et moteur de recherche de lieux et d'événements.</p>
     <p>Pour <a href="http://www.creatile-services.com" title="Guillaume Vielliard" rel="external">Guillaume Vielliard</a>, Freelance Drupal.</p>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet merezo">
@@ -437,7 +438,7 @@
       <li>Abonnements et notifications</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet econocom">
@@ -450,7 +451,7 @@
     <ul>
       <li>Intégration et thème Drupal</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet ihp">
@@ -463,7 +464,7 @@
       <li>Développement Drupal</li>
       <li>Calendrier d'événements, réservation de lieux, inscription des participants</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet msi">
@@ -476,7 +477,7 @@
     <ul>
       <li>Développement et intégration Drupal</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet historia">
@@ -490,7 +491,7 @@
       <li>Développement Drupal</li>
       <li>Intégration Framework CSS <a href="http://blueprintcss.org" rel="external">Blueprint</a></li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet rouen">
@@ -504,7 +505,7 @@
       <li>Direction artistique</li>
       <li>Développement et intégration Drupal</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet rouen">
@@ -518,7 +519,7 @@
       <li>Direction artistique</li>
       <li>Développement et intégration Drupal</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet code-igniter">
@@ -532,7 +533,7 @@
       <li>API <a href="http://developer.shopping.com" title="API Shopping.com" rel="external">Shopping.com</a></li>
       <li>Intégration HTML / CSS</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
   <article class="projet kstudio">
@@ -548,7 +549,7 @@
       <li>Web application pour une centrale d'achat</li>
       <li>...</li>
     </ul>
-    <br class="clear" />
+    <br class="clear">
   </article>
   
 </section>
