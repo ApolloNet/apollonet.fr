@@ -22,7 +22,7 @@
 
 <header id="top">
   <div>
-    <h1><img src="images/logo.png" alt="Logo" width="70" height="71"> Apollo<span>Net</span></h1>
+    <h1><img src="images/logo.png" alt="ApolloNet" width="70" height="71">Apollo<span>Net</span></h1>
   </div>
 </header>
 
