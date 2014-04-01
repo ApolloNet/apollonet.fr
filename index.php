@@ -8,7 +8,7 @@
   <meta name="geo.placename" content="Rouen, Normandie, France">
   <meta name="author" content="ApolloNet">
   <meta name="description" content="ApolloNet est située à Rouen, Normandie : Création de Site Internet, Développement Web, Intégration, Expertise CMS Drupal.">
-  <meta name="keywords" content="développeur, web, développement web, freelance, drupal, intégration, rouen, normandie, apollonet, ronsaut, devis, contact, conférences, ateliers">
+  <meta name="keywords" content="développeur, développement, web, freelance, drupal, intégration, rouen, normandie, apollonet, ronsaut">
   <meta name="Robots" content="index,follow,all">
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr"><?php endif; ?>
