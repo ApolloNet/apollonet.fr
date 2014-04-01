@@ -5,7 +5,6 @@
   <title>Développeur Web Drupal Freelance | ApolloNet</title>
   <link rel="profile" href="http://microformats.org/profile/hcard">
   <meta charset="utf-8">
-  <meta http-equiv="content-language" content="fr">
   <meta name="geo.placename" content="Rouen, Normandie, France">
   <meta name="author" content="ApolloNet">
   <meta name="description" content="ApolloNet est située à Rouen, Normandie : Création de Site Internet, Développement Web, Intégration, Expertise CMS Drupal.">
@@ -14,6 +13,7 @@
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr"><?php endif; ?>
   <link rel="stylesheet" type="text/css" media="all" href="style.min.css">
+  <link rel="stylesheet" type="text/css" media="print" href="print.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/ico">
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -133,7 +133,7 @@
   <article class="projet autrecercle">
     <a class="titre" href="http://www.autrecercle.org" title="Site internet de L'Autre Cercle" rel="external">
       <h1>Site web de l'association L'Autre Cercle</h1>
-      <p class="date"><time datetime="2013-07-4">Juillet 2013</time></p>
+      <p class="date"><time datetime="2013-07-04">Juillet 2013</time></p>
     </a>
     <p>Refonte du site web de <a href="http://www.autrecercle.org" title="Site internet de L'Autre Cercle" rel="external">L'Autre Cercle</a>, fédération nationale des associations d'homosexuels luttant contre les discriminations.</p>
     <ul>
@@ -304,10 +304,10 @@
   </article>
   
   <article class="projet ciamt">
-    <span class="titre">
+    <div class="titre">
       <h1>Intranet professionnel : CIAMT</h1>
       <p class="date"><time datetime="2012-01-20">Janvier 2012</time></p>
-    </span>
+    </div>
     <p>Création de l'intranet du <a href="http://www.ciamt.org" title="Site internet du CIAMT" rel="external">CIAMT</a>, Centre de médecine du travail et de santé au travail.</p>
     <p>Pour l'agence web <a href="http://www.artnum.com/" title="Agence Les Artisans Numériques">Les Artisans Numériques</a>.</p>
     <ul>
@@ -455,10 +455,10 @@
   </article>
   
   <article class="projet ihp">
-    <span class="titre">
+    <div class="titre">
       <h1>Site institutionnel</h1>
       <p class="date"><time datetime="2010-09-03">Septembre 2010</time></p>
-    </span>
+    </div>
     <p>Pour l'agence de conseil multimédia <a href="http://nid.fr" title="Agence Nid" rel="external">Nid</a>.</p>
     <ul>
       <li>Développement Drupal</li>
@@ -523,10 +523,10 @@
   </article>
   
   <article class="projet code-igniter">
-    <span class="titre">
+    <div class="titre">
       <h1>Système de comparateurs de prix</h1>
       <p class="date"><time datetime="2010-05-31">Mai 2010</time></p>
-    </span>
+    </div>
     <p>Pour <a href="http://anseaume.com" title="Benjamin Anseaume" rel="external">Benjamin Anseaume</a>.</p>
     <ul>
       <li>Développement PHP avec le framework <a href="http://codeigniter.com" title="Framework Code Igniter" rel="external">Code Igniter</a></li>
@@ -537,10 +537,10 @@
   </article>
   
   <article class="projet kstudio">
-    <span class="titre">
+    <div class="titre">
       <h1>Développements Drupal plus anciens</h1>
       <p class="date"><time datetime="2010-04-01">2009 - 2010</time></p>
-    </span>
+    </div>
     <ul>
       <li>Festival <a href="http://www.normandie-impressionniste.fr" title="Site internet de Normandie Impressionniste" rel="external">Normandie Impressionniste</a></li>
       <li><a href="http://evreux.le-gea.fr" title="Site internet de la Ville d'Evreux" rel="external">Ville d'Evreux</a></li>
@@ -627,20 +627,6 @@
 <p>&copy; Alexandre Ronsaut - ApolloNet 2010-2013. SIREN : 502 427 412</p>
 </footer>
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-15605283-1']);
-  _gaq.push(['_setDomainName', 'apollonet.fr']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+<script type="text/javascript" src="/scripts.js"></script>
 </body>
 </html>
