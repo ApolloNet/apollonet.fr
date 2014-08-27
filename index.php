@@ -1,5 +1,5 @@
-<!doctype html> 
-<html lang="fr" dir="ltr"> 
+<!doctype html>
+<html lang="fr" dir="ltr">
 
 <head>
   <title>Développeur Web Drupal Freelance | ApolloNet</title>
@@ -15,7 +15,6 @@
   <link rel="stylesheet" type="text/css" media="all" href="style.min.css">
   <link rel="stylesheet" type="text/css" media="print" href="print.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/ico">
-  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
 <body class="vcard">
@@ -33,20 +32,20 @@
   </header>
 
   <p><strong><span class="org">ApolloNet</span></strong>, c'est <a href="#contact">Alexandre Ronsaut</a>, <strong>développeur web et intégrateur en freelance</strong> à <span class="locality" title="Rouen">Rouen</span>, en <span class="region" title="Seine Martime">Normandie</span>.</p>
-  <p>Je travaille avec le <abbr title="Système de Gestion de Contenu">CMS</abbr> <a href="http://drupal.org/" title="CMS Drupal" rel="external">Drupal</a> quotidiennement depuis plus de 6 ans.</p>
+  <p>Je travaille avec le <abbr title="Système de Gestion de Contenu">CMS</abbr> <a href="http://drupal.org/" title="CMS Drupal" rel="external">Drupal</a> quotidiennement depuis plus de 7 ans.</p>
   <p>Mes <a href="#competences">compétences</a> multiples sont mises au service de <strong>sites internet modernes</strong>, de plateformes de <strong>commerce électronique</strong> et de <strong>campagnes de communication en ligne</strong>.</p>
   <p>Mes <a href="#references">clients</a> sont des sociétés de toutes tailles, des collectivités et des associations.</p>
   <p>Enfin, membre actif de l'association <a href="http://nwx.fr" title="Association NWX : Normandie Web Xperts" rel="external">Normandie Web Xperts (NWX)</a>, je participe à l'organisation des conférences <a href="http://nwx.fr/evenements" title="Événements NWX" rel="external">#nwxtech</a>, <a href="http://www.codeursenseine.com/" title="Codeurs en Seine" rel="external">Codeurs en Seine</a>, <a href="http://www.meetup.com/drupal-france-francophonie/events/153092982/" title="Drupal Meetup Rouen" rel="external">Drupal Meetup Rouen</a> et aux <a href="https://twitter.com/aperoweb_rouen" title="Twitter @aperoweb_rouen">Apéros Web Rouen</a>.
   <p>J'interviens aussi lors de <a href="#conferences">conférences</a> sur le web et le mobile.</p>
-  
+
 </section>
 
 <section id="competences">
-  
+
   <header>
     <h1 id="h1-competences">Développement web</h1>
   </header>
-  
+
   <article>
     <header>
       <h2>Expertise Drupal</h2>
@@ -60,7 +59,7 @@
       <li>Formation</li>
     </ul>
   </article>
-  
+
   <article>
     <header>
       <h2>Développement Web &amp; Intégration</h2>
@@ -68,7 +67,7 @@
     <ul>
       <li>PHP, MySQL</li>
       <li>HTML, CSS</li>
-      <li>Javascript, Jquery</li>
+      <li>Javascript, jQuery</li>
       <li>Accessibilité</li>
       <li>Référencement naturel</li>
       <li>Optimisation performances web</li>
@@ -78,7 +77,7 @@
 </section>
 
 <section id="contact">
-  
+
   <header>
     <h1 id="h1-contact">Devis &amp; Contact</h1>
   </header>
@@ -91,27 +90,132 @@
 </section>
 
 <section id="references">
-  
+
   <header>
     <h1 id="h1-references">Créations de Site Internet</h1>
   </header>
 
+  <article class="projet nologo">
+    <span class="titre">
+      <h1>Développement Drupal et front-end</h1>
+      <p class="date"><time datetime="2014-06-04">Juin 2014</time></p>
+    </span>
+    <p>Développement web et expertise Drupal pour un grand compte anonyme.</p>
+    <ul>
+      <li>Configuration du CMS Drupal</li>
+      <li>Système multi-langue : français et anglais</li>
+      <li>Développement front-end responsive</li>
+      <li>Formulaire HTML5 et Constraint Validation API</li>
+      <li>Intégration API Drupal et logiciel métier</li>
+      <li>Expertise et conseil</li>
+    </ul>
+  </article>
+
+  <article class="projet msa">
+    <a class="titre" href="http://montsaintaignan.fr" title="Site web officiel de la Ville de Mont-Saint-Aignan" rel="external">
+      <h1>Site de la ville de Mont-Saint-Aignan</h1>
+      <p class="date"><time datetime="2014-06-04">Juin 2014</time></p>
+    </a>
+    <p>Sécurisation du site internet de la ville de <a href="http://montsaintaignan.fr" title="Site web officiel de la Ville de Mont-Saint-Aignan" rel="external">Mont-Saint-Aignan</a>.</p>
+    <ul>
+      <li>Mise à jour du CMS</li>
+      <li>Conseil en sécurité web</li>
+    </ul>
+  </article>
+
+  <article class="projet aen">
+    <a class="titre" href="http://automne-en-normandie.com" title="Site internet d'Automne en Normandie" rel="external">
+      <h1>Site du festival Automne en Normandie</h1>
+      <p class="date"><time datetime="2014-06-04">Juin 2014</time></p>
+    </a>
+    <p>Site web de l'édition 2014 du festival <a href="http://automne-en-normandie.com" title="Site internet d'Automne en Normandie" rel="external">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
+    <ul>
+      <li>Développement et paramétrage du CMS Drupal</li>
+      <li>Intégration HTML5 et CSS3</li>
+    </ul>
+  </article>
+
+  <article class="projet tdp14">
+    <a class="titre" href="http://terres-de-paroles.com" title="Site internet du festival Terres de Paroles" rel="external">
+      <h1>Site du festival Terres de Paroles</h1>
+      <p class="date"><time datetime="2014-04-22">Avril 2014</time></p>
+    </a>
+    <p>Site web du festival de littérature <a href="http://terres-de-paroles.com" title="Site web du festival Terres de Paroles" rel="external">Terres de Paroles</a>, troisième édition.</p>
+    <ul>
+      <li>Développement et paramétrage du CMS Drupal</li>
+      <li>Intégration HTML5 et CSS3</li>
+    </ul>
+  </article>
+
+  <article class="projet rouen">
+    <a class="titre" href="http://cathedrales1789-1914.fr" title="Site internet de l'exposition Cathédrales 1789-1914" rel="external">
+      <h1>Site web de l'exposition Cathédrales 1789-1914</h1>
+      <p class="date"><time datetime="2014-04-10">Avril 2014</time></p>
+    </a>
+    <p>Mécénat pour l'exposition <a href="http://cathedrales1789-1914.fr" title="Site internet de l'exposition Cathédrales 1789-1914" rel="external">Cathédrales 1789-1914</a>.</p>
+    <ul>
+      <li>Configuration du multi-site sur le CMS Drupal</li>
+      <li>Système multi-langue : français, anglais et allemand</li>
+    </ul>
+  </article>
+
+  <article class="projet autrecercle">
+    <a class="titre" href="http://www.autrecercle.org" title="Site internet de L'Autre Cercle" rel="external">
+      <h1>Site web de l'Autre Cercle</h1>
+      <p class="date"><time datetime="2014-03-03">Mars 2014</time></p>
+    </a>
+    <p>Poursuite du partenariat avec <a href="http://www.autrecercle.org" title="Site internet de L'Autre Cercle" rel="external">L'Autre Cercle</a>, fédération nationale des associations d'homosexuels luttant contre les discriminations.</p>
+    <ul>
+      <li>Développement pour le CMS Drupal</li>
+      <li>Paramétrage de mailing lists</li>
+      <li>Actions anti-spam</li>
+      <li>Développement front-end</li>
+    </ul>
+  </article>
+
+  <article class="projet rouen">
+    <a class="titre" href="http://www.rouen-musees.com" title="Site internet des Musées de Rouen" rel="external">
+      <h1>Sites des Musées de la Ville de Rouen</h1>
+      <p class="date"><time datetime="2014-03-03">Mars 2014</time></p>
+    </a>
+    <p>Sites web des <a href="http://rouen-musees.fr/" title="Les Musées de Rouen" rel="external">Musées de Rouen</a>.</p>
+    <ul>
+      <li>Développement du formulaire de réservation de groupes</li>
+    </ul>
+  </article>
+
+  <article class="projet nomad">
+    <a class="titre" href="http://nomadmusic.fr" title="NoMadMusic" rel="external">
+      <h1>NoMadMusic, label musical en ligne</h1>
+      <p class="date"><time datetime="2014-01-28">Janvier 2014</time></p>
+    </a>
+    <p>Conception et développement du site web de la maison de disque et magazine musical en ligne <a href="http://nomadmusic.fr" title="NoMadMusic" rel="external">NoMadMusic</a>.</p>
+    <ul>
+      <li>Conception ergonomique</li>
+      <li>Configuration du CMS Drupal</li>
+      <li>Développement et intégration du lecteur audio</li>
+      <li>Développement <em>Front End</em></li>
+      <li>Responsive Web Design</li>
+      <li>Plateforme multi-langues</li>
+      <li>Publication Rich Media</li>
+      <li>Formation à la publication</li>
+    </ul>
+  </article>
+
   <article class="projet horreur">
     <a class="titre" href="http://horreur.net" title="Horreur.net" rel="external">
       <h1>Annuaire de films Horreur.net</h1>
-      <p class="date">Réalisation en cours</p>
+      <p class="date"><time datetime="2013-12-26">Décembre 2013</time></p>
     </a>
     <p>Refonte du site <a href="http://horreur.net" title="Horreur.net" rel="external">Horreur.net</a>.</p>
     <ul>
+      <li>Configuration du CMS Drupal</li>
+      <li>Développement spécifique</li>
       <li>Intégration HTML5 et CSS3</li>
-      <li>Développement et paramétrage du CMS Drupal</li>
-      <li>Référencement naturel</li>
-      <li>Optimisation des performances web</li>
     </ul>
-    <br class="clear">
   </article>
 
-  <article class="projet nologo">
+  <article class="projet sgroud">
     <a class="titre" href="http://compagniesylvaingroud.fr" title="Site web la Compagnie MAD / Sylvain Groud" rel="external">
       <h1>Site web la Compagnie MAD / Sylvain Groud</h1>
       <p class="date"><time datetime="2013-12-26">Décembre 2013</time></p>
@@ -127,7 +231,6 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear">
   </article>
 
   <article class="projet autrecercle">
@@ -143,7 +246,6 @@
       <li>Groupes de travail</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear">
   </article>
 
   <article class="projet spreadbutton">
@@ -152,7 +254,6 @@
       <p class="date"><time datetime="2013-06-11">Juin 2013</time></p>
     </a>
     <p>Création d'un module Drupal pour intégrer le service <a href="http://sb.am" title="Site du service Spreadbutton" rel="external">Spreadbutton</a> avec <a href="http://www.drupalcommerce.org" title="Drupal Commerce" rel="external">Drupal Commerce</a>.</p>
-    <br class="clear">
   </article>
 
   <article class="projet rouen">
@@ -173,7 +274,6 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear">
   </article>
 
   <article class="projet aen">
@@ -186,7 +286,6 @@
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
     </ul>
-    <br class="clear">
   </article>
 
   <article class="projet tdp13">
@@ -199,9 +298,8 @@
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet frb">
     <a class="titre" href="http://fondationrainbowbridge.org" title="Site internet de la Fondation Rainbow Bridge" rel="external">
       <h1>Site de la Fondation Rainbow Bridge</h1>
@@ -218,7 +316,6 @@
       <li>Référencement naturel</li>
       <li>Optimisation des performances web</li>
     </ul>
-    <br class="clear">
   </article>
 
   <article class="projet aen">
@@ -241,9 +338,8 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet tdp12">
     <a class="titre" href="http://terres-de-paroles.com" title="Site internet du festival Terres de Paroles" rel="external">
       <h1>Site du festival Terres de Paroles</h1>
@@ -262,7 +358,6 @@
       <li>Optimisation des performances web</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear">
   </article>
 
   <article class="projet sartory">
@@ -277,9 +372,8 @@
       <li>Système multi-langue</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet rouen">
     <a class="titre" href="http://www.clic-rouen.fr" title="Site internet du CLIC de Rouen" rel="external">
       <h1>Site institutionnel : Le CLIC de Rouen</h1>
@@ -291,18 +385,16 @@
       <li>Développement et intégration Drupal</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet aen">
     <a class="titre" href="http://automne-en-normandie.com" title="Site internet d'Automne en Normandie" rel="external">
       <h1>Audit et Spécifications techniques : Arts 276</h1>
       <p class="date"><time datetime="2012-02-20">Février 2012</time></p>
     </a>
     <p>Rédaction du cahier des charges techniques et fonctionnelles pour les festivals <strong>Terres de Paroles</strong> et <a href="http://automne-en-normandie.com" title="Site internet d'Automne en Normandie" rel="external">Automne en Normandie</a>.</p>
-    <br class="clear">
   </article>
-  
+
   <article class="projet ciamt">
     <div class="titre">
       <h1>Intranet professionnel : CIAMT</h1>
@@ -318,9 +410,8 @@
       <li>Formulaires avec envoi de courriels</li>
       <li>Règlage fin des rôles et permissions par catégorie</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet keynit">
     <a class="titre" href="http://www.keynit.com" title="Site internet de Keynit" rel="external">
       <h1>Site web corporate : Keynit</h1>
@@ -333,9 +424,8 @@
       <li>Intégration HTML / CSS</li>
       <li>Paramétrage des Views</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet cnp">
     <a class="titre" href="http://cnp-finances.fr" title="Site internet de CNP Finances" rel="external">
       <h1>Site web corporate : CNP Finances</h1>
@@ -346,12 +436,11 @@
     <ul>
       <li>Système multi-langue</li>
       <li>Workflow</li>
-      <li>Thème Drupal et Intégration HTML, CSS et Jquery</li>
+      <li>Thème Drupal et Intégration HTML, CSS et jQuery</li>
       <li>Paramétrage des Views</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet mao">
     <a class="titre" href="http://musicaouir.fr" title="Site internet de La Campagnie des Musiques à Ouïr" rel="external">
       <h1>Site association : Musiques à Ouïr</h1>
@@ -363,7 +452,6 @@
       <li>Direction artistique</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear">
   </article>
 
   <article class="projet jmm">
@@ -381,9 +469,8 @@
       <li>Référencement naturel</li>
       <li>Optimisation des performances Drupal</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet aen">
     <a class="titre" href="http://automne-en-normandie.com" title="Site internet d'Automne en Normandie" rel="external">
       <h1>Site du festival Automne en Normandie 2011</h1>
@@ -393,11 +480,10 @@
     <ul>
       <li>Création graphique</li>
       <li>Intégration HTML5 et CSS3</li>
-      <li>Développement PHP et Jquery</li>
+      <li>Développement PHP et jQuery</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet memurb">
     <a class="titre" href="http://memoires-urbaines.fr" title="Site internet des Mémoires Urbaines" rel="external">
       <h1>Site web et mobile : Mémoires Urbaines</h1>
@@ -411,9 +497,8 @@
       <li>Site web mobile</li>
       <li>Formation à la publication</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet dowego">
     <a class="titre" href="http://dowego.org" title="Site internet de Dowego" rel="external">
       <h1>Conseil en architecture web : Dowego</h1>
@@ -421,9 +506,8 @@
     </a>
     <p>Conseil en architecture Drupal sur <a href="http://dowego.org" title="Site internet de Dowego" rel="external">Dowego</a>, plateforme collaborative et moteur de recherche de lieux et d'événements.</p>
     <p>Pour <a href="http://www.creatile-services.com" title="Guillaume Vielliard" rel="external">Guillaume Vielliard</a>, Freelance Drupal.</p>
-    <br class="clear">
   </article>
-  
+
   <article class="projet merezo">
     <a class="titre" href="http://www.merezo-normandie.com" title="Site internet de Mérézo Normandie" rel="external">
       <h1>Plateforme collaborative : Mérézo Normandie</h1>
@@ -438,9 +522,8 @@
       <li>Abonnements et notifications</li>
       <li>Formation à la publication et à l'administration</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet econocom">
     <a class="titre" href="http://www.econocom.com" title="Site internet d'Econocom" rel="external">
       <h1>Site corporate : Econocom</h1>
@@ -451,9 +534,8 @@
     <ul>
       <li>Intégration et thème Drupal</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet ihp">
     <div class="titre">
       <h1>Site institutionnel</h1>
@@ -464,9 +546,8 @@
       <li>Développement Drupal</li>
       <li>Calendrier d'événements, réservation de lieux, inscription des participants</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet msi">
     <a class="titre" href="http://fr.msi.com" title="Site internet de MSI France" rel="external">
       <h1>Site corporate : MSI France</h1>
@@ -477,9 +558,8 @@
     <ul>
       <li>Développement et intégration Drupal</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet historia">
     <a class="titre" href="http://sauvonslhistoire.historia.fr" title="Site internet de Historia, Sauvons l'Histoire" rel="external">
       <h1>Site participatif : Historia</h1>
@@ -491,9 +571,8 @@
       <li>Développement Drupal</li>
       <li>Intégration Framework CSS <a href="http://blueprintcss.org" rel="external">Blueprint</a></li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet rouen">
     <a class="titre" href="http://rouensurmer.fr" title="Site internet de Rouen Sur Mer" rel="external">
       <h1>Site événementiel : Rouen sur Mer</h1>
@@ -505,9 +584,8 @@
       <li>Direction artistique</li>
       <li>Développement et intégration Drupal</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet rouen">
     <a class="titre" href="http://rouenimpressionnee.fr" title="Site internet de Rouen Impressionnée" rel="external">
       <h1>Site événementiel : Rouen Impressionnée</h1>
@@ -519,9 +597,8 @@
       <li>Direction artistique</li>
       <li>Développement et intégration Drupal</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet code-igniter">
     <div class="titre">
       <h1>Système de comparateurs de prix</h1>
@@ -533,9 +610,8 @@
       <li>API <a href="http://developer.shopping.com" title="API Shopping.com" rel="external">Shopping.com</a></li>
       <li>Intégration HTML / CSS</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
   <article class="projet kstudio">
     <div class="titre">
       <h1>Développements Drupal plus anciens</h1>
@@ -549,9 +625,8 @@
       <li>Web application pour une centrale d'achat</li>
       <li>...</li>
     </ul>
-    <br class="clear">
   </article>
-  
+
 </section>
 
 <section id="conferences">
@@ -596,7 +671,7 @@
       <p class="date">Atelier au Pôle Normand des Échanges Électroniques, le 28 mars 2013</p>
     </a>
   </article>
-  
+
   <article class="projet big">
     <a class="titre" href="http://big-talents.eu" title="Site internet du salon B.I.G. Talents" rel="external">
       <h1>Êtes-vous prêt pour le mobile ?</h1>
@@ -611,7 +686,7 @@
       <p class="date">Conférence NWX 2012, le 14 Juin 2012</p>
     </a>
   </article>
-  
+
   <article class="projet nwx">
     <a class="titre" href="http://nwx.fr" title="Site internet de l'association NWX : Normandie Web Xperts" rel="external">
       <h1>Responsive Web Design</h1>

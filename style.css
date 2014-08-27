@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -26,7 +26,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -89,7 +89,7 @@ li{
 li:before{
   content:'★';
   font-size:90%;
-  margin:0 5px 0 0;
+  margin:0 10px 0 0;
 }
 a{
   color:#c40;
@@ -102,11 +102,6 @@ a:hover{
 strong{
   color:#222;
   font-weight: bold;
-}
-.clear{
-  clear:both;
-  height:1px;
-  line-height:1px;
 }
 
 body > header div,
@@ -146,7 +141,10 @@ section > header > h1{
 }
 
 .projet{
-  margin:0 0 20px 0;
+  margin:0 0 40px 0;
+}
+.projet .titre{
+  color:#000;
 }
 .projet .titre:before{
   content:'';
@@ -154,48 +152,47 @@ section > header > h1{
   width:50px;
   height:50px;
   float:left;
-  margin:0 0 0 -65px;
+  margin:5px 0 0 -65px;
   background:#fff url(images/sprite.png) no-repeat top left;
-  -moz-border-radius:40px;
-  -webkit-border-radius:40px;
-  -khtml-border-radius:40px;
-  border-radius:40px;
-  box-shadow:2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 .projet.nologo .titre:before{
   background:none;
 }
 /* Sprite from http://fr.spritegen.website-performance.org */
-.aen .titre:before{background-position:0 0;} 
-.autrecercle .titre:before{background-position:0 -51px;} 
-.big .titre:before{background-position:0 -102px;} 
-.ciamt .titre:before{background-position:0 -153px;} 
-.cnp .titre:before{background-position:0 -204px;} 
-.code-igniter .titre:before{background-position:0 -255px;} 
-.dowego .titre:before{background-position:0 -306px;} 
-.econocom .titre:before{background-position:0 -357px;} 
-.forum-digital .titre:before{background-position:0 -408px;} 
-.frb .titre:before{background-position:0 -459px;} 
-.historia .titre:before{background-position:0 -510px;} 
-.horreur .titre:before{background-position: 0 -561px;} 
-.ihp .titre:before{background-position:0 -612px;} 
-.jmm .titre:before{background-position:0 -663px;} 
-.keynit .titre:before{background-position:0 -714px;} 
-.kstudio .titre:before{background-position:0 -765px;} 
-.mao .titre:before{background-position:0 -816px;} 
-.memurb .titre:before{background-position:0 -867px;} 
-.merezo .titre:before{background-position:0 -918px;} 
-.msi .titre:before{background-position:0 -969px;} 
-.nwx .titre:before{background-position:0 -1020px;} 
-.pnee .titre:before{background-position:0 -1071px;} 
-.rouen-impressionnee .titre:before{background-position:0 -1122px;} 
-.rouen .titre:before{background-position:0 -1173px;} 
-.rouensurmer .titre:before{background-position:0 -1224px;} 
-.sartory .titre:before{background-position:0 -1275px;} 
-.spreadbutton .titre:before{background-position:0 -1326px;} 
-.sudweb .titre:before{background-position:0 -1374px;} 
-.tdp12 .titre:before{background-position:0 -1425px;} 
-.tdp13 .titre:before{background-position:0 -1476px;} 
+.aen .titre:before{background-position:0 0;}
+.autrecercle .titre:before{background-position:0 -51px;}
+.big .titre:before{background-position:0 -102px;}
+.ciamt .titre:before{background-position:0 -153px;}
+.cnp .titre:before{background-position:0 -204px;}
+.code-igniter .titre:before{background-position:0 -255px;}
+.dowego .titre:before{background-position:0 -306px;}
+.econocom .titre:before{background-position:0 -357px;}
+.forum-digital .titre:before{background-position:0 -408px;}
+.frb .titre:before{background-position:0 -459px;}
+.historia .titre:before{background-position:0 -510px;}
+.horreur .titre:before{background-position: 0 -561px;}
+.ihp .titre:before{background-position:0 -612px;}
+.jmm .titre:before{background-position:0 -663px;}
+.keynit .titre:before{background-position:0 -714px;}
+.kstudio .titre:before{background-position:0 -765px;}
+.mao .titre:before{background-position:0 -816px;}
+.memurb .titre:before{background-position:0 -867px;}
+.merezo .titre:before{background-position:0 -918px;}
+.msa .titre:before{background:#fff url(images/i-msa.png) no-repeat top left;}  /* todo */
+.msi .titre:before{background-position:0 -969px;}
+.nomad .titre:before{background:#fff url(images/i-nomad.png) no-repeat top left;}  /* todo */
+.nwx .titre:before{background-position:0 -1020px;}
+.pnee .titre:before{background-position:0 -1071px;}
+.rouen-impressionnee .titre:before{background-position:0 -1122px;}
+.rouen .titre:before{background-position:0 -1173px;}
+.rouensurmer .titre:before{background-position:0 -1224px;}
+.sartory .titre:before{background-position:0 -1275px;}
+.sgroud .titre:before{background:#fff url(images/i-sgroud.png) no-repeat top left;}  /* todo */
+.spreadbutton .titre:before{background-position:0 -1326px;}
+.sudweb .titre:before{background-position:0 -1374px;}
+.tdp12 .titre:before{background-position:0 -1425px;}
+.tdp13 .titre:before{background-position:0 -1476px;}
+.tdp14 .titre:before{background:#fff url(images/i-tdp14.png) no-repeat top left;}  /* todo */
 
 .projet .titre:hover{
   text-decoration: none;
@@ -218,10 +215,10 @@ footer{
 /* rwd */
 
 @media screen and (max-width:480px){
-  
+
   body > header h1{
     font-size:2.5em;
     line-height:1.5;
   }
-  
+
 }
