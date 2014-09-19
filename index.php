@@ -635,6 +635,15 @@
     <h1>Conférences et Ateliers</h1>
   </header>
 
+  <article class="projet nwx">
+    <a class="titre" href="http://nwx.fr/actualite/la-conference-nwx-revient-le-26-juin" title="Confrénce Normandy Web Xperts 2014" rel="external">
+      <h1>La Conception dans le navigateur</h1>
+      <p class="date">Conférence NWX, Normandy Web Xperts, le 26 juin 2014.</p>
+    </a>
+    <p>Comment et pourquoi changer les mauvaises habitudes de conception pour prototyper et &laquo; développer le graphisme &raquo; <strong>in situ</strong>, dans le navigateur.</p>
+    <p><a href="/docs/140626-nwx2014-conception-dans-le-navigateur.pdf">&raquo; Télécharger mes slides</a></p>
+  </article>
+
   <article class="projet nologo">
     <a class="titre" href="http://www.meetup.com/drupal-france-francophonie/events/153092982/" title="Premier Drupal Meetup Rouen" rel="external">
       <h1>La création de thème avec Drupal</h1>
