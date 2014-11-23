@@ -70,6 +70,7 @@ body{
 }
 h1{
   font-weight:bold;
+  font-style:italic;
 }
 h1 a{
   color:#000;
@@ -137,54 +138,6 @@ article h1{
   font-size:1.6em;
   color:#000;
 }
-article h1:before{
-  content:'';
-  display:block;
-  width:50px;
-  height:50px;
-  float:left;
-  margin:.5em 0 0 -2.5em;
-  background:#fff url(images/sprite.png) no-repeat top left;
-}
-article.nologo h1:before{
-  background:none;
-}
-/* Sprite from http://fr.spritegen.website-performance.org */
-.aen h1:before{background-position:0 0;}
-.autrecercle h1:before{background-position:0 -51px;}
-.big h1:before{background-position:0 -102px;}
-.ciamt h1:before{background-position:0 -153px;}
-.cnp h1:before{background-position:0 -204px;}
-.code-igniter h1:before{background-position:0 -255px;}
-.dowego h1:before{background-position:0 -306px;}
-.econocom h1:before{background-position:0 -357px;}
-.forum-digital h1:before{background-position:0 -408px;}
-.frb h1:before{background-position:0 -459px;}
-.historia h1:before{background-position:0 -510px;}
-.horreur h1:before{background-position:0 -561px;}
-.ihp h1:before{background-position:0 -612px;}
-.jmm h1:before{background-position:0 -663px;}
-.keynit h1:before{background-position:0 -714px;}
-.kstudio h1:before{background-position:0 -765px;}
-.mao h1:before{background-position:0 -816px;}
-.memurb h1:before{background-position:0 -867px;}
-.merezo h1:before{background-position:0 -918px;}
-.msa h1:before{background:#fff url(images/i-msa.png) no-repeat top left;}  /* todo */
-.msi h1:before{background-position:0 -969px;}
-.nomad h1:before{background:#fff url(images/i-nomad.png) no-repeat top left;}  /* todo */
-.nwx h1:before{background-position:0 -1020px;}
-.pnee h1:before{background-position:0 -1071px;}
-.rouen-impressionnee h1:before{background-position:0 -1122px;}
-.rouen h1:before{background-position:0 -1173px;}
-.rouensurmer h1:before{background-position:0 -1224px;}
-.sartory h1:before{background-position:0 -1275px;}
-.sgroud h1:before{background:#fff url(images/i-sgroud.png) no-repeat top left;}  /* todo */
-.spreadbutton h1:before{background-position:0 -1326px;}
-.sudweb h1:before{background-position:0 -1374px;}
-.tdp12 h1:before{background-position:0 -1425px;}
-.tdp13 h1:before{background-position:0 -1476px;}
-.tdp14 h1:before{background:#fff url(images/i-tdp14.png) no-repeat top left;}  /* todo */
-
 article p.date{
   color:#444;
 }
@@ -195,6 +148,58 @@ footer{
 }
 
 /* rwd */
+
+@media screen and (min-width:600px){
+
+  article h1:before{
+    content:'';
+    display:block;
+    width:50px;
+    height:50px;
+    float:left;
+    margin:.5em 0 0 -2.5em;
+    background:#fff url(images/sprite.png) no-repeat top left;
+  }
+  article.nologo h1:before{
+    background:none;
+  }
+  /* Sprite from http://fr.spritegen.website-performance.org */
+  .aen h1:before{background-position:0 0;}
+  .autrecercle h1:before{background-position:0 -51px;}
+  .big h1:before{background-position:0 -102px;}
+  .ciamt h1:before{background-position:0 -153px;}
+  .cnp h1:before{background-position:0 -204px;}
+  .code-igniter h1:before{background-position:0 -255px;}
+  .dowego h1:before{background-position:0 -306px;}
+  .econocom h1:before{background-position:0 -357px;}
+  .forum-digital h1:before{background-position:0 -408px;}
+  .frb h1:before{background-position:0 -459px;}
+  .historia h1:before{background-position:0 -510px;}
+  .horreur h1:before{background-position:0 -561px;}
+  .ihp h1:before{background-position:0 -612px;}
+  .jmm h1:before{background-position:0 -663px;}
+  .keynit h1:before{background-position:0 -714px;}
+  .kstudio h1:before{background-position:0 -765px;}
+  .mao h1:before{background-position:0 -816px;}
+  .memurb h1:before{background-position:0 -867px;}
+  .merezo h1:before{background-position:0 -918px;}
+  .msa h1:before{background:#fff url(images/i-msa.png) no-repeat top left;}  /* todo */
+  .msi h1:before{background-position:0 -969px;}
+  .nomad h1:before{background:#fff url(images/i-nomad.png) no-repeat top left;}  /* todo */
+  .nwx h1:before{background-position:0 -1020px;}
+  .pnee h1:before{background-position:0 -1071px;}
+  .rouen-impressionnee h1:before{background-position:0 -1122px;}
+  .rouen h1:before{background-position:0 -1173px;}
+  .rouensurmer h1:before{background-position:0 -1224px;}
+  .sartory h1:before{background-position:0 -1275px;}
+  .sgroud h1:before{background:#fff url(images/i-sgroud.png) no-repeat top left;}  /* todo */
+  .spreadbutton h1:before{background-position:0 -1326px;}
+  .sudweb h1:before{background-position:0 -1374px;}
+  .tdp12 h1:before{background-position:0 -1425px;}
+  .tdp13 h1:before{background-position:0 -1476px;}
+  .tdp14 h1:before{background:#fff url(images/i-tdp14.png) no-repeat top left;}  /* todo */
+
+}
 
 @media screen and (max-width:480px){
 

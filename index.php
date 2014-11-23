@@ -601,6 +601,6 @@
   <p>&copy; Alexandre Ronsaut - ApolloNet 2010-<?php print date('Y'); ?>. SIREN : 502 427 412</p>
 </footer>
 
-<script type="text/javascript" src="/scripts.js"></script>
+<script type="text/javascript" src="/scripts.js" async></script>
 </body>
 </html>
