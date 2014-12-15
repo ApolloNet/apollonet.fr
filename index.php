@@ -13,7 +13,7 @@
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr"><?php endif; ?>
   <link rel="stylesheet" type="text/css" media="all" href="style.min.css">
-  <link rel="stylesheet" type="text/css" media="print" href="print.css">
+  <style type="text/css" media="print">header{margin-top:0;}article h1:before{display:none;}</style>
   <link rel="shortcut icon" href="favicon.ico" type="image/ico">
 </head>
 
