@@ -12,8 +12,8 @@
   <meta name="Robots" content="index,follow,all">
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr"><?php endif; ?>
-  <link rel="stylesheet" type="text/css" media="all" href="style.min.css">
-  <style type="text/css" media="print">header{margin-top:0;}article h1:before{display:none;}</style>
+  <style media="all">a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}@font-face{font-family:kimberley;src:url(fonts/kimberley-webfont.eot);src:url(fonts/kimberley-webfont.eot?iefix) format('eot'),url(fonts/kimberley-webfont.woff) format('woff'),url(fonts/kimberley-webfont.ttf) format('truetype');font-weight:400;font-style:normal}body{background:#fff;font-size:1em;line-height:1.5;font-family:Georgia,serif;color:#000}h1{font-weight:700;font-style:italic}h1 a{color:#000}p,ul{margin:0 0 1em}li{margin:.5em 0}li:before{content:'★';font-size:90%;margin:0 1em 0 0}a{color:#c40;text-decoration:none}a:focus,a:hover{text-decoration:underline}strong{color:#222;font-weight:700}footer,header,section{max-width:36em;margin:0 auto 3em;padding:0 .5em}header{margin-top:3em}header h1{font-family:kimberley,sans-serif;text-transform:uppercase;font-style:italic;font-weight:400;font-size:3.5em;line-height:.9;letter-spacing:2px}header h1 span{color:#c40}section>h1{margin:0 0 .5em;font-size:2.2em;color:#c40}article{margin:0 0 3em}article h1{font-size:1.6em;color:#000}article p.date{color:#444}footer{margin-top:6em;color:#444}@media screen and (min-width:600px){article h1:before{content:'';display:block;width:50px;height:50px;float:left;margin:.5em 0 0 -2.5em;background:url(images/sprite.png) top left no-repeat #fff}article.nologo h1:before{background:0 0}.aen h1:before{background-position:0 0}.autrecercle h1:before{background-position:0 -51px}.big h1:before{background-position:0 -102px}.ciamt h1:before{background-position:0 -153px}.cnp h1:before{background-position:0 -204px}.code-igniter h1:before{background-position:0 -255px}.dowego h1:before{background-position:0 -306px}.econocom h1:before{background-position:0 -357px}.forum-digital h1:before{background-position:0 -408px}.frb h1:before{background-position:0 -459px}.historia h1:before{background-position:0 -510px}.horreur h1:before{background-position:0 -561px}.ihp h1:before{background-position:0 -612px}.jmm h1:before{background-position:0 -663px}.keynit h1:before{background-position:0 -714px}.kstudio h1:before{background-position:0 -765px}.mao h1:before{background-position:0 -816px}.memurb h1:before{background-position:0 -867px}.merezo h1:before{background-position:0 -918px}.msa h1:before{background-position:0 -969px}.msi h1:before{background-position:0 -1020px}.nomad h1:before{background-position:0 -1071px}.nwx h1:before{background-position:0 -1122px}.pnee h1:before{background-position:0 -1173px}.rouen-impressionnee h1:before{background-position:0 -1224px}.rouen h1:before{background-position:0 -1275px}.rouensurmer h1:before{background-position:0 -1326px}.sartory h1:before{background-position:0 -1377px}.sgroud h1:before{background-position:0 -1428px}.spreadbutton h1:before{background-position:0 -1479px}.sudweb h1:before{background-position:0 -1527px}.tdp12 h1:before{background-position:0 -1578px}.tdp13 h1:before{background-position:0 -1629px}.tdp14 h1:before{background-position:0 -1669px}}@media screen and (max-width:480px){header h1{font-size:2.5em;line-height:1.5}}</style>
+  <style media="print">header{margin-top:0;}article h1:before{display:none;}</style>
   <link rel="shortcut icon" href="favicon.ico" type="image/ico">
 </head>
 
@@ -601,6 +601,16 @@
   <p>&copy; Alexandre Ronsaut - ApolloNet 2010-<?php print date('Y'); ?>. SIREN : 502 427 412</p>
 </footer>
 
-<script type="text/javascript" src="/scripts.js" async></script>
+<script async>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-15605283-1']);
+_gaq.push(['_setDomainName', 'apollonet.fr']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
 </body>
 </html>
