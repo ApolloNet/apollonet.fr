@@ -550,7 +550,7 @@
     <p><a href="/docs/140626-nwx2014-conception-dans-le-navigateur.pdf">&raquo; Télécharger mes slides</a></p>
   </article>
 
-  <article class="nologo">
+  <article class="nwx">
     <h1><a href="http://www.meetup.com/drupal-france-francophonie/events/153092982/" title="Premier Drupal Meetup Rouen">La création de thème avec Drupal</a></h1>
     <p class="date">Intervention au 1er Drupal Meetup de Rouen, le 23 janvier 2014.</p>
   </article>
