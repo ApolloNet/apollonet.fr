@@ -3,6 +3,7 @@ AddDefaultCharset	UTF-8
 AddCharset UTF-8 .html
 AddCharset UTF-8 .css
 AddCharset UTF-8 .js
+AddLanguage fr-FR .html .css .js
 
 # Etags
 FileETag MTime Size

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" dir="ltr">
+<html lang="fr" dir="ltr" prefix="og: http://ogp.me/ns#">
 
 <head>
   <title>Développeur Web Drupal Freelance | ApolloNet</title>
@@ -9,6 +9,11 @@
   <meta name="author" content="ApolloNet">
   <meta name="description" content="ApolloNet est située à Rouen, Normandie : Création de Site Internet, Développement Web, Intégration, Expertise CMS Drupal.">
   <meta name="keywords" content="développeur, développement, web, freelance, drupal, intégration, rouen, normandie, apollonet, ronsaut">
+  <meta property="og:title" content="Développeur Web Drupal Freelance | ApolloNet">
+  <meta property="og:description" content="ApolloNet est située à Rouen, Normandie : Création de Site Internet, Développement Web, Intégration, Expertise CMS Drupal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://apollonet.fr/">
+  <meta property="og:image" content="http://apollonet.fr/images/logo.png">
   <meta name="Robots" content="index,follow,all">
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr"><?php endif; ?>
