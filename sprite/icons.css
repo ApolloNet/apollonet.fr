@@ -1,5 +1,6 @@
-﻿/* glue: 0.9.4 hash: 91a49f23fe */
-        .sprite-icons-tdp14,
+﻿/* glue: 0.9.4 hash: a252629281 */
+        .sprite-icons-wetruck,
+.sprite-icons-tdp14,
 .sprite-icons-tdp13,
 .sprite-icons-tdp12,
 .sprite-icons-sudweb,
@@ -39,224 +40,231 @@
             background-repeat: no-repeat;
         }
         
-        .sprite-icons-tdp14 {
+        .sprite-icons-wetruck {
             background-position: 0 0;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-tdp13 {
+        .sprite-icons-tdp14 {
             background-position: -50px 0;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-tdp12 {
+        .sprite-icons-tdp13 {
             background-position: 0 -50px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-sudweb {
+        .sprite-icons-tdp12 {
             background-position: -50px -50px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-spread {
+        .sprite-icons-sudweb {
             background-position: -100px 0;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-sgroud {
+        .sprite-icons-spread {
             background-position: -100px -50px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-sartory {
+        .sprite-icons-sgroud {
             background-position: 0 -100px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-rouensurmer {
+        .sprite-icons-sartory {
             background-position: -50px -100px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-rouen {
+        .sprite-icons-rouensurmer {
             background-position: -100px -100px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-rouen-impressionnee {
+        .sprite-icons-rouen {
             background-position: -150px 0;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-pnee {
+        .sprite-icons-rouen-impressionnee {
             background-position: -150px -50px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-outremer {
+        .sprite-icons-pnee {
             background-position: -150px -100px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-nwx {
+        .sprite-icons-outremer {
             background-position: 0 -150px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-nomad {
+        .sprite-icons-nwx {
             background-position: -50px -150px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-msi {
+        .sprite-icons-nomad {
             background-position: -100px -150px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-msa {
+        .sprite-icons-msi {
             background-position: -150px -150px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-merezo {
+        .sprite-icons-msa {
             background-position: -200px 0;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-memurb {
+        .sprite-icons-merezo {
             background-position: -200px -50px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-mao {
+        .sprite-icons-memurb {
             background-position: -200px -100px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-kstudio {
+        .sprite-icons-mao {
             background-position: -200px -150px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-keynit {
+        .sprite-icons-kstudio {
             background-position: 0 -200px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-jmm {
+        .sprite-icons-keynit {
             background-position: -50px -200px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-ihp {
+        .sprite-icons-jmm {
             background-position: -100px -200px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-horreur {
+        .sprite-icons-ihp {
             background-position: -150px -200px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-historia {
+        .sprite-icons-horreur {
             background-position: -200px -200px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-frb {
+        .sprite-icons-historia {
             background-position: -250px 0;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-forum-digital {
+        .sprite-icons-frb {
             background-position: -250px -50px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-fendzy {
+        .sprite-icons-forum-digital {
             background-position: -250px -100px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-econocom {
+        .sprite-icons-fendzy {
             background-position: -250px -150px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-dowego {
+        .sprite-icons-econocom {
             background-position: -250px -200px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-code-igniter {
+        .sprite-icons-dowego {
             background-position: 0 -250px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-cnp {
+        .sprite-icons-code-igniter {
             background-position: -50px -250px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-ciamt {
+        .sprite-icons-cnp {
             background-position: -100px -250px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-big {
+        .sprite-icons-ciamt {
             background-position: -150px -250px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-autrecercle {
+        .sprite-icons-big {
             background-position: -200px -250px;
             width: 50px;
             height: 50px;
         }
         
-        .sprite-icons-aen {
+        .sprite-icons-autrecercle {
             background-position: -250px -250px;
             width: 50px;
             height: 50px;
         }
         
+        .sprite-icons-aen {
+            background-position: -300px 0;
+            width: 50px;
+            height: 50px;
+        }
+        
         @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
-            .sprite-icons-tdp14,
+            .sprite-icons-wetruck,
+    .sprite-icons-tdp14,
     .sprite-icons-tdp13,
     .sprite-icons-tdp12,
     .sprite-icons-sudweb,
@@ -293,9 +301,9 @@
     .sprite-icons-autrecercle,
     .sprite-icons-aen {
                 background-image: url('icons.png');
-                -webkit-background-size: 300px 300px;
-                -moz-background-size: 300px 300px;
-                background-size: 300px 300px;
+                -webkit-background-size: 350px 300px;
+                -moz-background-size: 350px 300px;
+                background-size: 350px 300px;
             }
         }
         
