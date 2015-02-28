@@ -229,9 +229,9 @@
   </article>
 
   <article class="aen">
-    <h1><a href="http://automne-en-normandie.com">Automne en Normandie 2014</a></h1>
+    <h1><a href="http://2014.automne-en-normandie.com">Automne en Normandie 2014</a></h1>
     <p class="date"><time datetime="2014-06-04">Juin 2014</time></p>
-    <p>Site web de l'édition 2014 du festival <a href="http://automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
+    <p>Site web de l'édition 2014 du festival <a href="http://2014.automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
     <ul>
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
@@ -239,9 +239,9 @@
   </article>
 
   <article class="tdp14">
-    <h1><a href="http://terres-de-paroles.com">Terres de Paroles 2014</a></h1>
+    <h1><a href="http://2014.terres-de-paroles.com">Terres de Paroles 2014</a></h1>
     <p class="date"><time datetime="2014-04-22">Avril 2014</time></p>
-    <p>Site web du festival de littérature <a href="http://terres-de-paroles.com">Terres de Paroles</a>, troisième édition.</p>
+    <p>Site web du festival de littérature <a href="http://2014.terres-de-paroles.com">Terres de Paroles</a>, troisième édition.</p>
     <ul>
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
@@ -360,9 +360,9 @@
   </article>
 
   <article class="aen">
-    <h1><a href="http://automne-en-normandie.com">Automne en Normandie 2013</a></h1>
+    <h1><a href="http://2013.automne-en-normandie.com">Automne en Normandie 2013</a></h1>
     <p class="date"><time datetime="2013-03-11">Mars 2013</time></p>
-    <p>Site web de l'édition 2013 du festival <a href="http://automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
+    <p>Site web de l'édition 2013 du festival <a href="http://2013.automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
     <ul>
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
@@ -370,9 +370,9 @@
   </article>
 
   <article class="tdp13">
-    <h1><a href="http://terres-de-paroles.com">Terres de Paroles 2013</a></h1>
+    <h1><a href="http://2013.terres-de-paroles.com">Terres de Paroles 2013</a></h1>
     <p class="date"><time datetime="2013-03-19">Mars 2013</time></p>
-    <p>Site web du festival de littérature <a href="http://terres-de-paroles.com">Terres de Paroles</a>, seconde édition.</p>
+    <p>Site web du festival de littérature <a href="http://2013.terres-de-paroles.com">Terres de Paroles</a>, seconde édition.</p>
     <ul>
       <li>Développement et paramétrage du CMS Drupal</li>
       <li>Intégration HTML5 et CSS3</li>
@@ -396,9 +396,9 @@
   </article>
 
   <article class="aen">
-    <h1><a href="http://automne-en-normandie.com">Automne en Normandie 2012</a></h1>
+    <h1><a href="http://2012.automne-en-normandie.com">Automne en Normandie 2012</a></h1>
     <p class="date"><time datetime="2012-09-01">Septembre 2012</time></p>
-    <p>Création du site web du festival <a href="http://automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
+    <p>Création du site web du festival <a href="http://2012.automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
     <ul>
       <li>Création graphique</li>
       <li>Approches Mobile First et Responsive Web Design</li>
@@ -416,9 +416,9 @@
   </article>
 
   <article class="tdp12">
-    <h1><a href="http://terres-de-paroles.com">Terres de Paroles 2012</a></h1>
+    <h1><a href="http://2012.terres-de-paroles.com">Terres de Paroles 2012</a></h1>
     <p class="date"><time datetime="2012-05-21">Mai 2012</time></p>
-    <p>Création du site web du festival de littérature <a href="http://terres-de-paroles.com">Terres de Paroles</a>.</p>
+    <p>Création du site web du festival de littérature <a href="http://2012.terres-de-paroles.com">Terres de Paroles</a>.</p>
     <ul>
       <li>Création graphique</li>
       <li>Approches Mobile First et Responsive Web Design</li>
@@ -529,9 +529,9 @@
   </article>
 
   <article class="aen">
-    <h1><a href="http://automne-en-normandie.com">Automne en Normandie 2011</a></h1>
+    <h1><a href="http://2011.automne-en-normandie.com">Automne en Normandie 2011</a></h1>
     <p class="date"><time datetime="2011-06-04">Juin 2011</time></p>
-    <p>Site web de l'édition 2011 du festival <a href="http://automne-en-normandie.com">Automne en Normandie</a>.</p>
+    <p>Site web de l'édition 2011 du festival <a href="http://2011.automne-en-normandie.com">Automne en Normandie</a>.</p>
     <ul>
       <li>Création graphique</li>
       <li>Intégration HTML5 et CSS3</li>
