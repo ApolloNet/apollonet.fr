@@ -24,7 +24,8 @@ DirectoryIndex index.php index.html
 # but the following cannot be changed at runtime.
 
 <IfModule mod_headers.c>
-  Header set Content-Security-Policy "script-src 'self'"
+  # Si activé, on peut pas lancer HTML Code Sniffer, par exemple
+  #Header set Content-Security-Policy "script-src 'self'"
 </IfModule>
 
 # PHP 5, Apache 1 and 2.
