@@ -79,7 +79,6 @@
     <article>
       <p>Contactez <strong>Alexandre Ronsaut</strong> pour toute demande d'informations :</p>
       <ul>
-        <li>Téléphone : <a href="tel:+33680950110">06 80 95 01 10</a></li>
         <li>Email : <a href="mailto:alex@apollonet.fr">alex@apollonet.fr</a></li>
         <li>Twitter : <a href="http://twitter.com/Apollo_Net">@Apollo_Net</a></li>
       </ul>
@@ -91,30 +90,45 @@
 
     <h2>Créations de Site Internet</h2>
 
-    <article class="icon wetruck">
-      <h3><a href="http://wetruck.fr">WeTruck</a></h3>
-      <p class="date"><time datetime="2014-05-01">En cours de dévelopement</time></p>
-      <p>Développement du Minimum Viable Product pour <a href="http://wetruck.fr">WeTruck</a>, service de voyage en camion pour particuliers.</p>
+    <article>
+      <h3>Métiers d'Art en Pays d'Auge</h3>
+      <p class="date"><time datetime="2015-11-01">En cours de dévelopement</time></p>
+      <p>Développement du site web pour la promotion des métiers d'art en Pays d'Auge.</p>
       <ul>
-        <li>Développement PHP avec le framework <a href="http://symfony.com">Symfony</a></li>
-        <li>Développement front end</li>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique responsive</li>
+        <li>Formation à la publication</li>
       </ul>
     </article>
 
-    <article class="icon rouen">
-      <h3>Musée des Beaux-Arts de Rouen : exposition Sienne, Aux Origines de la Renaissance</h3>
-      <p class="date"><time datetime="2014-03-16">En cours de dévelopement</time></p>
-      <p>Mécénat pour l'exposition Sienne, Aux Origines de la Renaissance.</p>
+  <article>
+      <h3>Amis des Musées de la Ville de Rouen</h3>
+      <p class="date"><time datetime="2015-10-15">En cours de dévelopement</time></p>
+      <p>Développement du site web de l'association des <a href="http://amis-musees-rouen.fr">Amis des Musées de la Ville de Rouen</a>.</p>
       <ul>
-        <li>Configuration du multi-site sur le CMS Drupal</li>
-        <li>Développement front end</li>
+        <li>Conception des interfaces</li>
+        <li>Direction artistique</li>
+        <li>Configuration du CMS <a href="http://philecms.com/">PhileCMS</a></li>
+        <li>Intégration graphique adaptative</li>
+        <li>Formation à la publication</li>
+      </ul>
+    </article>
+
+    <article class="icon nomad">
+      <h3>NoMadMusic</h3>
+      <p class="date"><time datetime="2015-10-15">En cours de dévelopement</time></p>
+      <p>Intégration d'une application de composition musicale sur le site web de <a href="http://nomadmusic.fr">NoMadMusic</a> et configuration du système de vote.</p>
+      <ul>
+        <li>Configuration du CMS Drupal</li>
+        <li>Développement PHP</li>
+        <li>Intégration graphique responsive</li>
       </ul>
     </article>
 
     <article>
       <h3><a href="http://museeduverre.fr" title="Musée du Verre de Conches-en-Ouche">Musée du Verre de Conches-en-Ouche</a></h3>
-      <p class="date"><time datetime="2015-03-16">En cours de dévelopement</time></p>
-      <p>Développement du site web du <a href="http://museeduverre.fr" title="Musée du Verre de Conches-en-Ouche">Musée du Verre de Conches-en-Ouche</a>.</p>
+      <p class="date"><time datetime="2015-10-01">En cours de dévelopement</time></p>
+      <p>Développement du site web du <a href="http://museeduverre.fr" title="Musée du Verre de Conches-en-Ouche">Musée du Verre</a> de Conches-en-Ouche.</p>
       <ul>
         <li>Conception des interfaces</li>
         <li>Direction artistique</li>
@@ -125,13 +139,33 @@
       </ul>
     </article>
 
+    <article class="icon wetruck">
+      <h3><a href="http://wetruck.fr">WeTruck</a></h3>
+      <p class="date"><time datetime="2015-05-26">Mai 2015</time></p>
+      <p>Développement du Minimum Viable Product pour <a href="http://wetruck.fr">WeTruck</a>, service de voyage en camion pour particuliers.</p>
+      <ul>
+        <li>Développement PHP avec le framework <a href="http://symfony.com">Symfony</a></li>
+        <li>Développement front end</li>
+      </ul>
+    </article>
+
     <article class="icon tdp14">
       <h3><a href="http://terres-de-paroles.com">Terres de Paroles 2015</a></h3>
-      <p class="date"><time datetime="2014-03-16">En cours de dévelopement</time></p>
+      <p class="date"><time datetime="2014-04-23">Avril 2015</time></p>
       <p>Site web du festival de littérature <a href="http://terres-de-paroles.com">Terres de Paroles</a>, quatrième édition.</p>
       <ul>
         <li>Développement autour du CMS Drupal</li>
         <li>Intégration HTML, CSS</li>
+      </ul>
+    </article>
+
+    <article class="icon rouen">
+      <h3>Musée des Beaux-Arts de Rouen : exposition Sienne, Aux Origines de la Renaissance</h3>
+      <p class="date"><time datetime="2015-03-16">Mars 2015</time></p>
+      <p>Mécénat pour l'exposition Sienne, Aux Origines de la Renaissance.</p>
+      <ul>
+        <li>Configuration du multi-site sur le CMS Drupal</li>
+        <li>Développement front end</li>
       </ul>
     </article>
 
