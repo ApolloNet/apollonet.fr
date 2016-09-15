@@ -16,7 +16,7 @@
   <meta property="og:image" content="http://apollonet.fr/images/logo.png">
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <?php if(!empty($_GET) || !empty($_POST)): ?><link rel="canonical" href="http://www.apollonet.fr"><?php endif; ?>
-  <style media="all">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}@font-face{font-family:'kimberley';src:url('fonts/kimberley-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/kimberley-webfont.woff') format('woff'),url('fonts/kimberley-webfont.ttf')format('truetype'),url('fonts/kimberley-webfont.svg#kimberleyregular') format('svg');}body{max-width:33em;margin:0 auto;padding:0 .5em;background:#fff;font-size:1em;line-height:1.5;font-family:Georgia,serif;color:#000;}article{margin-bottom:3em;}footer{margin-top:6em;color:#444;}h1{margin:.5em 0;font-family:kimberley,sans-serif;text-transform:uppercase;font-style:italic;font-weight:normal;font-size:2.5em;line-height:1.5;letter-spacing:2px;}h1 span{color:#c40;}h2,h3{font-weight:bold;font-style:italic;}h2{margin:0 0 .5em 0;font-size:2.2em;color:#c40;}h3{font-size:1.6em;color:#000;}p{margin:0 0 1em 0;}ul{margin:0 0 1em 0;}li{margin:.5em 0;}li:before{content:'★';font-size:.7em;margin:0 1em 0 0;}a{color:#c40;text-decoration:none;}a:focus,a:hover{text-decoration:underline;}h1 a,h2 a,h3 a{color:#000;}strong{color:#222;font-weight:bold;}.date{color:#444;font-style:italic;}@media screen and (min-width:480px){h1{font-size:3em;}}@media screen and (min-width:600px){body{font-size:1.3125em;}.icon:before{content:'';display:block;width:50px;height:50px;float:left;margin:.5em 0 0 -4em;background:transparent url(images/icons.png) no-repeat top left;}.wetruck:before{background-position:0 0;}.tdp14:before{background-position:-50px 0;}.tdp13:before{background-position:0 -50px;}.tdp12:before{background-position:-50px -50px;}.sudweb:before{background-position:-100px 0;}.spread:before{background-position:-100px -50px;}.sgroud:before{background-position:0 -100px;}.sartory:before{background-position:-50px -100px;}.rouensurmer:before{background-position:-100px -100px;}.rouen:before{background-position:-150px 0;}.rouen-impressionnee:before{background-position:-150px -50px;}.pnee:before{background-position:-150px -100px;}.outremer:before{background-position:0 -150px;}.nwx:before{background-position:-50px -150px;}.nomad:before{background-position:-100px -150px;}.msi:before{background-position:-150px -150px;}.msa:before{background-position:-200px 0;}.merezo:before{background-position:-200px -50px;}.memurb:before{background-position:-200px -100px;}.mao:before{background-position:-200px -150px;}.kstudio:before{background-position:0 -200px;}.keynit:before{background-position:-50px -200px;}.jmm:before{background-position:-100px -200px;}.ihp:before{background-position:-150px -200px;}.horreur:before{background-position:-200px -200px;}.historia:before{background-position:-250px 0;}.frb:before{background-position:-250px -50px;}.forum-digital:before{background-position:-250px -100px;}.fendzy:before{background-position:-250px -150px;}.econocom:before{background-position:-250px -200px;}.dowego:before{background-position:0 -250px;}.code-igniter:before{background-position:-50px -250px;}.cnp:before{background-position:-100px -250px;}.ciamt:before{background-position:-150px -250px;}.big:before{background-position:-200px -250px;}.autrecercle:before{background-position:-250px -250px;}.aen:before{background-position:-300px 0;}}</style>
+  <style media="all">a,h1 span,h2{color:#c40}body,h3,h3 a{color:#000}a:focus,a:hover,h3 a{text-decoration:none}a,h3 a:focus,h3 a:hover{text-decoration:underline}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}h1,li{margin:.5em 0}body,h1{line-height:1.5}.date,.desc,em,h1,h2,h3{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}@font-face{font-family:kimberley;src:url(fonts/kimberley-webfont.eot?#iefix) format('embedded-opentype'),url(fonts/kimberley-webfont.woff) format('woff'),url(fonts/kimberley-webfont.ttf) format('truetype'),url(fonts/kimberley-webfont.svg#kimberleyregular) format('svg')}body{max-width:33em;margin:0 auto;padding:0 .5em;background:#fff;font-size:1em;font-family:Georgia,serif}article{margin-bottom:3em}footer{margin-top:6em;color:#444}h1{font-family:kimberley,sans-serif;text-transform:uppercase;font-weight:400;font-size:2.5em;letter-spacing:2px}h2,h3,strong{font-weight:700}h2{margin:0 0 .5em;font-size:2.2em}h3{font-size:1.6em}p,ul{margin:0 0 1em}li:before{content:'★';font-size:.7em;margin:0 1em 0 0}strong{color:#222}.date,.date a,.desc,.desc a{color:#444}.bouton{display:inline-block;margin-bottom:2em;padding:.5em;background:#c40;border-radius:.5rem;color:#fff}#references-plus{display:none}#references-plus:target{display:block}@media screen and (min-width:480px){h1{font-size:3em}}@media screen and (min-width:600px){body{font-size:1.3125em}.icon:before{content:'';display:block;width:50px;height:50px;float:left;margin:.5em 0 0 -4em;background:url(images/icons.png) top left no-repeat}.wetruck:before{background-position:0 0}.tdp16:before{background-position:-50px 0}.tdp14:before{background-position:0 -50px}.tdp13:before{background-position:-50px -50px}.tdp12:before{background-position:-100px 0}.sudweb:before{background-position:-100px -50px}.spread:before{background-position:0 -100px}.sgroud:before{background-position:-50px -100px}.sartory:before{background-position:-100px -100px}.rouensurmer:before{background-position:-150px 0}.rouen:before{background-position:-150px -50px}.rouen-impressionnee:before{background-position:-150px -100px}.pnee:before{background-position:0 -150px}.pernod:before{background-position:-50px -150px}.pae:before{background-position:-100px -150px}.outremer:before{background-position:-150px -150px}.nwx:before{background-position:-200px 0}.nomad:before{background-position:-200px -50px}.msi:before{background-position:-200px -100px}.msa:before{background-position:-200px -150px}.metropole:before{background-position:0 -200px}.merezo:before{background-position:-50px -200px}.memurb:before{background-position:-100px -200px}.mao:before{background-position:-150px -200px}.kstudio:before{background-position:-200px -200px}.keynit:before{background-position:-250px 0}.jmm:before{background-position:-250px -50px}.ihp:before{background-position:-250px -100px}.horreur:before{background-position:-250px -150px}.historia:before{background-position:-250px -200px}.frb:before{background-position:0 -250px}.forum-digital:before{background-position:-50px -250px}.fendzy:before{background-position:-100px -250px}.ell:before{background-position:-150px -250px}.econocom:before{background-position:-200px -250px}.drupal:before{background-position:-250px -250px}.dowego:before{background-position:-300px 0}.codeurs:before{background-position:-300px -50px}.code-igniter:before{background-position:-300px -100px}.cnp:before{background-position:-300px -150px}.ciamt:before{background-position:-300px -200px}.big:before{background-position:-300px -250px}.autrecercle:before{background-position:0 -300px}.aperoweb:before{background-position:-50px -300px}.amvr:before{background-position:-100px -300px}.aen:before{background-position:-150px -300px}}</style>
   <style media="print">article:before{display:none;}</style>
   <link rel="shortcut icon" href="favicon.ico" type="image/ico">
 </head>
@@ -32,12 +32,11 @@
     <h2>Développeur Web Freelance</h2>
 
     <article>
-      <p><strong>ApolloNet</strong>, c'est <a href="#contact">Alexandre Ronsaut</a>, <strong>développeur web et intégrateur en freelance</strong> à Rouen, en Normandie.</p>
-      <p>Je travaille avec le <abbr title="Système de Gestion de Contenu">CMS</abbr> <a href="http://drupal.org/" title="CMS Drupal">Drupal</a> quotidiennement depuis plus de 7 ans.</p>
-      <p>Mes <a href="#competences">compétences</a> multiples sont mises au service de <strong>sites internet modernes</strong>, de plateformes de <strong>commerce électronique</strong> et de <strong>campagnes de communication en ligne</strong>.</p>
-      <p>Mes <a href="#references">clients</a> sont des sociétés de toutes tailles, des collectivités et des associations.</p>
-      <p>Membre actif de l'association <a href="http://nwx.fr" title="Association NWX : Normandie Web Xperts">Normandie Web Xperts (NWX)</a>, je participe à l'organisation des conférences <a href="http://www.codeursenseine.com/">Codeurs en Seine</a>, <a href="http://nwx.fr/evenements" title="Événements NWX">#nwxtech</a>, <a href="http://nwx.fr/evenements" title="Événements NWX">#NWX Web Design</a>, <a href="http://www.meetup.com/drupal-france-francophonie/events/153092982/">Drupal Meetup Rouen</a> et aux <a href="https://twitter.com/aperoweb_rouen" title="Twitter @aperoweb_rouen">Apéros Web Rouen</a>.
-      <p>J'interviens aussi lors de <a href="#conferences">conférences</a> sur le web et le mobile.</p>
+      <p><strong>ApolloNet</strong>, c'est <a href="#contact">Alexandre Ronsaut</a>, <strong>développeur web indépendant</strong> à Rouen, en Normandie.</p>
+      <p>Mes <a href="#competences">prestations</a> sont orientées vers la <strong>qualité web</strong> grâce à ma sensibilité pour l'ergonomie et le design d'interface. Et grâce à une veille constante sur les standards du web, l'ergonomie, le référencement, l'accessibilité et la performance.</p>
+      <p>Mes <a href="#references">nombreuses collaborations</a> autour de projets culturels sur la toile sont le reflet d'un engagement pour la diffusion et l'appropriation, par chacun, de nos biens communs que sont les arts, les sciences et l'histoire.</p>
+      <p>J'interviens lors de <a href="#orateur">conférences et ateliers</a> sur la conception et le développement web.</p>
+      <p>Enfin, je participe à l'organisation de <a href="#associations">conférences et rencontres</a> dédiées aux développeurs et webdesigners.</p>
     </article>
 
   </section>
@@ -47,26 +46,27 @@
     <h2>Développement web</h2>
 
     <article>
-      <h3>Expertise Drupal</h3>
+      <h3>Conception et Développement Web</h3>
       <ul>
-        <li>Bonne connaissance de l'écosystème Drupal</li>
-        <li>Maîtrise des APIs</li>
-        <li>Développement de module</li>
-        <li>Développement Front-end et Thème</li>
-        <li>Architecture de l'information et Gestion de contenu</li>
-        <li>Formation</li>
+        <li>Architecture de l'information</li>
+        <li>Ergonomie et conception d'interface</li>
+        <li>Développement front end : HTML, CSS, Javascript</li>
+        <li>Accessibilité</li>
+        <li>Référencement naturel (SEO)</li>
+        <li>Optimisation des performances web</li>
       </ul>
     </article>
 
     <article>
-      <h3>Développement Web &amp; Intégration</h3>
+      <h3>Expertise Drupal</h3>
+      <p class="desc">Je travaille avec le CMS <a href="http://drupal.org/" title="CMS Drupal">Drupal</a> quotidiennement depuis plus de <?php print date('Y') - 2007; ?> ans.</p>
       <ul>
-        <li>PHP, MySQL</li>
-        <li>HTML, CSS</li>
-        <li>Javascript, jQuery</li>
-        <li>Accessibilité</li>
-        <li>Référencement naturel</li>
-        <li>Optimisation des  performances web</li>
+        <li>Bonne connaissance de l'écosystème Drupal</li>
+        <li>Développement PHP, MySQL</li>
+        <li>Maîtrise des APIs</li>
+        <li>Développement de module</li>
+        <li>Développement front end et Thème</li>
+        <li>Formation</li>
       </ul>
     </article>
 
@@ -90,10 +90,52 @@
 
     <h2>Créations de Site Internet</h2>
 
-    <article>
-      <h3>Métiers d'Art en Pays d'Auge</h3>
-      <p class="date"><time datetime="2015-11-01">En cours de dévelopement</time></p>
-      <p>Développement du site web pour la promotion des métiers d'art en Pays d'Auge.</p>
+    <article class="icon msa">
+      <h3><a href="https://montsaintaignan.fr/">Mont-Saint-Aignan</a></h3>
+      <p class="date"><time datetime="2016-09-01">Septembre 2016</time></p>
+      <p>Développement du site web de la ville de <a href="https://montsaintaignan.fr/">Mont-Saint-Aignan</a>.</p>
+      <ul>
+        <li>Conception des interfaces</li>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique et développement front end</li>
+        <li>Formation à la publication</li>
+      </ul>
+    </article>
+
+    <article class="icon pernod">
+      <h3>Pernod Ricard</h3>
+      <p class="date"><time datetime="2016-07-01">Juillet 2016</time></p>
+      <p>Développement d'une application web pour Pernod Ricard.</p>
+      <ul>
+        <li>Développement Drupal</li>
+      </ul>
+    </article>
+
+    <article class="icon rouen">
+      <h3><a href="http://www.clic-rouen.fr">Le CLIC de Rouen</a></h3>
+      <p class="date"><time datetime="2016-05-10">Mai 2016</time></p>
+      <p>Itération sur le site du <a href="http://www.clic-rouen.fr">CLIC de Rouen</a>, service aux ainés de la Mairie de Rouen.</p>
+      <ul>
+        <li>Amélioration de l'accessibilité vers les recommandations WCAG 2.0 niveau AA</li>
+        <li>Refonte de l'interface pour adaptation aux mobiles et tablettes</li>
+        <li>Drupal : mises à jour et corrections de bugs</li>
+      </ul>
+    </article>
+
+    <article class="icon metropole">
+      <h3>Musée des Beaux-Arts de Rouen : exposition Scènes de la vie impressionniste</h3>
+      <p class="date"><time datetime="2016-04-13">Avril 2016</time></p>
+      <p>Mécénat pour l'exposition Scènes de la vie impressionniste.</p>
+      <ul>
+        <li>Configuration du multi-site sur le CMS Drupal</li>
+        <li>Développement front end</li>
+      </ul>
+    </article>
+
+    <article class="icon pae">
+      <h3><a href="http://lesgardiensdusavoir.fr/">Les Gardiens du Savoir</a></h3>
+      <p class="date"><time datetime="2016-04-04">Avril 2016</time></p>
+      <p>Développement du site web <a href="http://lesgardiensdusavoir.fr/">Les Gardiens du Savoir</a> pour la promotion des métiers d'art en Pays d'Auge.</p>
       <ul>
         <li>Configuration du CMS Drupal</li>
         <li>Intégration graphique responsive</li>
@@ -101,22 +143,60 @@
       </ul>
     </article>
 
-  <article>
-      <h3>Amis des Musées de la Ville de Rouen</h3>
-      <p class="date"><time datetime="2015-10-15">En cours de dévelopement</time></p>
+    <article class="icon ell">
+      <h3><a href="http://entreleslignes-larevue.fr/">Entre les lignes</a></h3>
+      <p class="date"><time datetime="2016-02-01">Mars 2016</time></p>
+      <p>Site web <a href="http://entreleslignes-larevue.fr/">Entre les lignes</a>, revue littéraire du festival Terres de Paroles.</p>
+      <ul>
+        <li>Ergonomie et conception des interfaces</li>
+        <li>Création graphique</li>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique et développement front end</li>
+      </ul>
+    </article>
+
+    <article class="icon tdp16">
+      <h3><a href="http://terresdeparoles.com/">Terres de Paroles 2016</a></h3>
+      <p class="date"><time datetime="2016-02-01">Février 2016</time></p>
+      <p>Site web du festival <a href="http://terresdeparoles.com/">Terres de Paroles</a>, nouvelle formule : lectures, performances, spectacles, rencontres en Normandie.</p>
+      <ul>
+        <li>Ergonomie et conception des interfaces</li>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique et développement front end</li>
+      </ul>
+    </article>
+
+    <article class="icon metropole">
+      <h3><a href="http://musees-rouen-normandie.fr/">Réunion des Musées Métropolitains Rouen Normandie</a></h3>
+      <p class="date"><time datetime="2016-01-05">Janvier 2016</time></p>
+      <p>Sites web de la <a href="http://musees-rouen-normandie.fr/">Réunion des Musées Métropolitains Rouen Normandie</a>.</p>
+      <ul>
+        <li>Co-conception des interfaces</li>
+        <li>Approches Mobile First et Responsive Web Design</li>
+        <li>Intégration HTML5 et CSS3</li>
+        <li>Développement et paramétrage du CMS Drupal</li>
+        <li>Système multi-sites</li>
+        <li>Plateforme multi-langues</li>
+        <li>Optimisation des performances web</li>
+      </ul>
+    </article>
+
+    <article class="icon amvr">
+      <h3><a href="http://amis-musees-rouen.fr">Amis des Musées de la Ville de Rouen</a></h3>
+      <p class="date"><time datetime="2015-11-18">Novembre 2015</time></p>
       <p>Développement du site web de l'association des <a href="http://amis-musees-rouen.fr">Amis des Musées de la Ville de Rouen</a>.</p>
       <ul>
         <li>Conception des interfaces</li>
-        <li>Direction artistique</li>
-        <li>Configuration du CMS <a href="http://philecms.com/">PhileCMS</a></li>
+        <li>Création graphique</li>
+        <li>Configuration du CMS flat-file Jekyll</li>
         <li>Intégration graphique adaptative</li>
-        <li>Formation à la publication</li>
+        <li>Formation à la publication au format Markdown</li>
       </ul>
     </article>
 
     <article class="icon nomad">
-      <h3>NoMadMusic</h3>
-      <p class="date"><time datetime="2015-10-15">En cours de dévelopement</time></p>
+      <h3><a href="http://nomadmusic.fr/">NoMadMusic</a></h3>
+      <p class="date"><time datetime="2015-11-17">Novembre 2015</time></p>
       <p>Intégration d'une application de composition musicale sur le site web de <a href="http://nomadmusic.fr">NoMadMusic</a> et configuration du système de vote.</p>
       <ul>
         <li>Configuration du CMS Drupal</li>
@@ -126,8 +206,8 @@
     </article>
 
     <article>
-      <h3><a href="http://museeduverre.fr" title="Musée du Verre de Conches-en-Ouche">Musée du Verre de Conches-en-Ouche</a></h3>
-      <p class="date"><time datetime="2015-10-01">En cours de dévelopement</time></p>
+      <h3><a href="http://museeduverre.fr">Musée du Verre de Conches-en-Ouche</a></h3>
+      <p class="date"><time datetime="2015-09-09">Septembre 2015</time></p>
       <p>Développement du site web du <a href="http://museeduverre.fr" title="Musée du Verre de Conches-en-Ouche">Musée du Verre</a> de Conches-en-Ouche.</p>
       <ul>
         <li>Conception des interfaces</li>
@@ -181,6 +261,14 @@
         <li>Intégration graphique responsive</li>
       </ul>
     </article>
+
+    <p><a href="#references-plus" class="bouton">+ Références plus anciennes</a></p>
+
+  </section>
+
+  <section id="references-plus">
+
+    <h2>Références plus anciennes</h2>
 
     <article class="icon aen">
       <h3><a href="http://automne-en-normandie.com">Automne en Normandie</a></h3>
@@ -244,13 +332,13 @@
     </article>
 
     <article>
-      <h3>Développement Drupal et front-end</h3>
+      <h3>Développement Drupal et front end</h3>
       <p class="date"><time datetime="2014-06-04">Juin 2014</time></p>
       <p>Développement web et expertise Drupal pour un grand compte.</p>
       <ul>
         <li>Configuration du CMS Drupal</li>
         <li>Système multi-langue : français et anglais</li>
-        <li>Développement front-end responsive</li>
+        <li>Développement front end responsive</li>
         <li>Formulaire HTML5 et Constraint Validation API</li>
         <li>Intégration API Drupal et logiciel métier</li>
         <li>Expertise et conseil</li>
@@ -305,7 +393,7 @@
         <li>Développement pour le CMS Drupal</li>
         <li>Paramétrage de mailing lists</li>
         <li>Actions anti-spam</li>
-        <li>Développement front-end</li>
+        <li>Développement front end</li>
       </ul>
     </article>
 
@@ -701,9 +789,17 @@
 
   </section>
 
-  <section id="conferences">
+  <section id="orateur">
 
     <h2>Conférences et Ateliers</h2>
+
+    <article class="icon nwx">
+      <h3><a href="http://www.nwx.fr/conference-webdesign/">Tout ce que vous avez toujours voulu savoir sur le webdesign sans jamais oser le demander</a></h3>
+      <p class="date">Conférence #NWX Webdesign #1, le 2 octobre 2014.</p>
+      <p>Débat animé avec Julien Lafillé.</p>
+      <p>Le mariage arrangé du webdesigner et du développeur front end se solde trop souvent par des assets cassés, des paires de calques inutiles, des problèmes de performances et bien des incompréhensions ("mais c'est qui ce JS dont tu parles tout le temps ?"). Nos conseillers conjugaux vous proposent une thérapie de groupe pour trouver la sérénité dans vos projets web.</p>
+      <p><a href="https://www.youtube.com/watch?v=gcZxH17G-Rk">&raquo; Voir la vidéo</a></p>
+    </article>
 
     <article class="icon nwx">
       <h3><a href="http://nwx.fr/actualite/la-conference-nwx-revient-le-26-juin" title="Confrénce Normandie Web Xperts 2014">La Conception dans le navigateur</a></h3>
@@ -758,6 +854,51 @@
     </article>
 
   </section>
+
+  <section id="associations">
+
+    <h2>Associations</h2>
+
+    <p>Je participe bénévolement à l'organisation de conférences, ateliers et rencontres dédiés aux métiers du web.</p>
+
+    <article class="icon codeurs">
+      <h3><a href="http://codeursenseine.com/">Codeurs en Seine</a></h3>
+      <p class="date">Depuis 2013</p>
+      <p>Conférence annuelle dédiée aux développeurs.</p>
+    </article>
+
+    <article class="icon drupal">
+      <h3><a href="http://www.meetup.com/drupal-france-francophonie/events/153092982/">Drupal Meetups Rouen</a></h3>
+      <p class="date">Depuis 2014</p>
+      <p>Conférences et ateliers autour de l'écosystème du CMS Drupal.</p>
+    </article>
+
+    <article class="icon aperoweb">
+      <h3><a href="https://twitter.com/aperoweb_rouen" title="Twitter @aperoweb_rouen">#aperoweb @rouen</a></h3>
+      <p class="date">Depuis 2012</p>
+      <p>Rencontres mensuelles des artisans du web à Rouen.</p>
+    </article>
+
+    <article class="icon nwx">
+      <h3><a href="http://nwx.fr/agenda" title="Événements NWX">#nwxtech</a></h3>
+      <p class="date">2011 - 2015</p>
+      <p>Conférences pour les développeurs web ouvertes à toutes les technologies back end et front end.</p>
+    </article>
+
+    <article class="icon nwx">
+      <h3><a href="http://nwx.fr/agenda" title="Événements NWX">Meetups Web Design</a></h3>
+      <p class="date">2014 - 2015</p>
+      <p>Conférences pour les webdesigners et les développeurs front end.</p>
+    </article>
+
+    <article class="icon nwx">
+      <h3><a href="http://nwx.fr/agenda">Conférences #NWX</a></h3>
+      <p class="date">2012 - 2015</p>
+      <p>Conférence annuelle de l'association NWX.</p>
+    </article>
+
+  </section>
+
 
   <footer>
     <p>&copy; Alexandre Ronsaut - ApolloNet 2010-<?php print date('Y'); ?>. SIREN : 502 427 412</p>

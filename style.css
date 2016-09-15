@@ -117,24 +117,58 @@ li:before{
 }
 a{
   color:#c40;
-  text-decoration:none;
+  text-decoration:underline;
 }
 a:focus,
 a:hover{
-  text-decoration:underline;
+  text-decoration:none;
 }
-h1 a,
-h2 a,
+
 h3 a{
   color:#000;
+  text-decoration:none;
 }
+
+h3 a:focus,
+h3 a:hover{
+  text-decoration: underline;
+}
+
 strong{
   color:#222;
   font-weight:bold;
 }
-.date{
+
+em {
+  font-style: italic;
+}
+
+.date,
+.desc {
   color:#444;
   font-style: italic;
+}
+
+.date a,
+.desc a{
+  color:#444;
+}
+
+.bouton {
+  display: inline-block;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  background: #c40;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+#references-plus {
+  display: none;
+}
+
+#references-plus:target {
+  display: block;
 }
 
 /* rwd */
@@ -160,47 +194,56 @@ strong{
     height:50px;
     float:left;
     margin:.5em 0 0 -4em;
-    background:transparent url(images/icons.png) no-repeat top left;
+    background:transparent url('images/icons.png') no-repeat top left;
   }
   /* Sprite
    * http://glue.readthedocs.org/en/latest/
-   * glue-sprite dossier-input dossier-output
+   * glue dossier-input dossier-output
    */
-  .wetruck:before{background-position: 0 0;}
-  .tdp14:before{background-position: -50px 0;}
-  .tdp13:before{background-position: 0 -50px;}
-  .tdp12:before{background-position: -50px -50px;}
-  .sudweb:before{background-position: -100px 0;}
-  .spread:before{background-position: -100px -50px;}
-  .sgroud:before{background-position: 0 -100px;}
-  .sartory:before{background-position: -50px -100px;}
-  .rouensurmer:before{background-position: -100px -100px;}
-  .rouen:before{background-position: -150px 0;}
-  .rouen-impressionnee:before{background-position: -150px -50px;}
-  .pnee:before{background-position: -150px -100px;}
-  .outremer:before{background-position: 0 -150px;}
-  .nwx:before{background-position: -50px -150px;}
-  .nomad:before{background-position: -100px -150px;}
-  .msi:before{background-position: -150px -150px;}
-  .msa:before{background-position: -200px 0;}
-  .merezo:before{background-position: -200px -50px;}
-  .memurb:before{background-position: -200px -100px;}
-  .mao:before{background-position: -200px -150px;}
-  .kstudio:before{background-position: 0 -200px;}
-  .keynit:before{background-position: -50px -200px;}
-  .jmm:before{background-position: -100px -200px;}
-  .ihp:before{background-position: -150px -200px;}
-  .horreur:before{background-position: -200px -200px;}
-  .historia:before{background-position: -250px 0;}
-  .frb:before{background-position: -250px -50px;}
-  .forum-digital:before{background-position: -250px -100px;}
-  .fendzy:before{background-position: -250px -150px;}
-  .econocom:before{background-position: -250px -200px;}
-  .dowego:before{background-position: 0 -250px;}
-  .code-igniter:before{background-position: -50px -250px;}
-  .cnp:before{background-position: -100px -250px;}
-  .ciamt:before{background-position: -150px -250px;}
-  .big:before{background-position: -200px -250px;}
-  .autrecercle:before{background-position: -250px -250px;}
-  .aen:before{background-position: -300px 0;}
+   .wetruck:before{background-position: 0 0;}
+   .tdp16:before{background-position: -50px 0;}
+   .tdp14:before{background-position: 0 -50px;}
+   .tdp13:before{background-position: -50px -50px;}
+   .tdp12:before{background-position: -100px 0;}
+   .sudweb:before{background-position: -100px -50px;}
+   .spread:before{background-position: 0 -100px;}
+   .sgroud:before{background-position: -50px -100px;}
+   .sartory:before{background-position: -100px -100px;}
+   .rouensurmer:before{background-position: -150px 0;}
+   .rouen:before{background-position: -150px -50px;}
+   .rouen-impressionnee:before{background-position: -150px -100px;}
+   .pnee:before{background-position: 0 -150px;}
+   .pernod:before{background-position: -50px -150px;}
+   .pae:before{background-position: -100px -150px;}
+   .outremer:before{background-position: -150px -150px;}
+   .nwx:before{background-position: -200px 0;}
+   .nomad:before{background-position: -200px -50px;}
+   .msi:before{background-position: -200px -100px;}
+   .msa:before{background-position: -200px -150px;}
+   .metropole:before{background-position: 0 -200px;}
+   .merezo:before{background-position: -50px -200px;}
+   .memurb:before{background-position: -100px -200px;}
+   .mao:before{background-position: -150px -200px;}
+   .kstudio:before{background-position: -200px -200px;}
+   .keynit:before{background-position: -250px 0;}
+   .jmm:before{background-position: -250px -50px;}
+   .ihp:before{background-position: -250px -100px;}
+   .horreur:before{background-position: -250px -150px;}
+   .historia:before{background-position: -250px -200px;}
+   .frb:before{background-position: 0 -250px;}
+   .forum-digital:before{background-position: -50px -250px;}
+   .fendzy:before{background-position: -100px -250px;}
+   .ell:before{background-position: -150px -250px;}
+   .econocom:before{background-position: -200px -250px;}
+   .drupal:before{background-position: -250px -250px;}
+   .dowego:before{background-position: -300px 0;}
+   .codeurs:before{background-position: -300px -50px;}
+   .code-igniter:before{background-position: -300px -100px;}
+   .cnp:before{background-position: -300px -150px;}
+   .ciamt:before{background-position: -300px -200px;}
+   .big:before{background-position: -300px -250px;}
+   .autrecercle:before{background-position: 0 -300px;}
+   .aperoweb:before{background-position: -50px -300px;}
+   .amvr:before{background-position: -100px -300px;}
+   .aen:before{background-position: -150px -300px;}
 }
