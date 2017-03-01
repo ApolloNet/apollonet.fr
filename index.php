@@ -80,7 +80,7 @@
       <p>Contactez <strong>Alexandre Ronsaut</strong> pour toute demande d'informations :</p>
       <ul>
         <li>Email : <a href="mailto:alex@apollonet.fr">alex@apollonet.fr</a></li>
-        <li>Twitter : <a href="http://twitter.com/Apollo_Net">@Apollo_Net</a></li>
+        <li>Twitter : <a href="http://twitter.com/alexronsaut">@alexronsaut</a></li>
       </ul>
     </article>
 
