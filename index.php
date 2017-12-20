@@ -29,13 +29,14 @@
 
   <section id="agence">
 
-    <h2>Développeur Web Freelance</h2>
-
-    <p><strong>ApolloNet</strong>, c'est <a href="#contact">Alexandre Ronsaut</a>, <strong>développeur web indépendant</strong> à Rouen, en Normandie.</p>
-    <p>Mes <a href="#competences">prestations</a> sont orientées vers la <strong>qualité web</strong> grâce à ma sensibilité pour l'ergonomie et le design d'interface. Et grâce à une veille constante sur les standards du web, l'ergonomie, le référencement, l'accessibilité et la performance.</p>
-    <p>Mes <a href="#references">nombreuses collaborations</a> autour de projets culturels sur la toile sont le reflet d'un engagement pour la diffusion et l'appropriation, par chacun, de nos biens communs que sont les arts, les sciences et l'histoire.</p>
-    <p>J'interviens lors de <a href="#orateur">conférences et ateliers</a> sur la conception et le développement web.</p>
-    <p>Enfin, je participe à l'organisation de <a href="#associations">conférences et rencontres</a> dédiées aux développeurs et webdesigners.</p>
+    <article>
+      <h2>Développeur Web Freelance</h2>
+      <p><strong>ApolloNet</strong>, c'est <a href="#contact">Alexandre Ronsaut</a>, <strong>développeur web indépendant</strong> à Rouen, en Normandie.</p>
+      <p>Mes <a href="#competences">prestations</a> sont orientées vers la <strong>qualité web</strong> grâce à ma sensibilité pour l'ergonomie et le design d'interface. Et grâce à une veille constante sur les standards du web, l'ergonomie, le référencement, l'accessibilité et la performance.</p>
+      <p>Mes <a href="#references">nombreuses collaborations</a> autour de projets culturels sur la toile sont le reflet d'un engagement pour la diffusion et l'appropriation, par chacun, de nos biens communs que sont les arts, les sciences et l'histoire.</p>
+      <p>J'interviens lors de <a href="#orateur">conférences et ateliers</a> sur la conception et le développement web.</p>
+      <p>Enfin, je participe à l'organisation de <a href="#associations">conférences et rencontres</a> dédiées aux développeurs et webdesigners.</p>
+    </article>
 
   </section>
 
@@ -72,13 +73,14 @@
 
   <section id="contact">
 
-    <h2>Contact</h2>
-
-    <p>Contactez <strong>Alexandre Ronsaut</strong> pour toute demande d'informations :</p>
-    <ul>
-      <li>Email : <a href="mailto:alex@apollonet.fr">alex@apollonet.fr</a></li>
-      <li>Twitter : <a href="http://twitter.com/alexronsaut">@alexronsaut</a></li>
-    </ul>
+    <article>
+      <h2>Contact</h2>
+      <p>Contactez <strong>Alexandre Ronsaut</strong> pour toute demande d'informations :</p>
+      <ul>
+        <li>Email : <a href="mailto:alex@apollonet.fr">alex@apollonet.fr</a></li>
+        <li>Twitter : <a href="http://twitter.com/alexronsaut">@alexronsaut</a></li>
+      </ul>
+    </article>
 
   </section>
 
