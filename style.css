@@ -51,82 +51,82 @@ table {
 
 @font-face {
   font-family: 'kimberley';
-  src: url('fonts/kimberley-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/kimberley-webfont.woff') format('woff'),
-       url('fonts/kimberley-webfont.ttf')  format('truetype'),
-       url('fonts/kimberley-webfont.svg#kimberleyregular') format('svg');
+  src: url('fonts/kimberley-webfont.woff2') format('woff2'),
+       url('fonts/kimberley-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body{
-  max-width:33em;
-  margin:0 auto;
-  padding:0 .5em;
-  background:#fff;
-  font-size:1em;
-  line-height:1.5;
-  font-family:Georgia, serif;
-  color:#000;
+  max-width: 33em;
+  margin: 0 auto;
+  padding: 0 0.5em;
+  background: #fff;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  color: #000;
 }
 article{
-  margin-bottom:3em;
+  margin-bottom: 3em;
 }
 footer{
-  margin-top:6em;
-  color:#444;
+  margin-top: 6em;
+  color: #444;
 }
 h1{
-  margin: .5em 0;
-  font-family:kimberley, sans-serif;
-  text-transform:uppercase;
-  font-style:italic;
-  font-weight:normal;
-  font-size:2.5em;
-  line-height:1.5;
-  letter-spacing:2px;
+  margin: 0.5em 0;
+  font-family: kimberley, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2.5em;
+  line-height: 1.5;
+  letter-spacing: 2px;
 }
 h1 span{
-  color:#c40;
+  color: #c40;
 }
 h2,
 h3{
-  font-weight:bold;
-  font-style:italic;
+  font-weight: bold;
+  font-style: italic;
 }
 h2{
-  margin:0 0 .5em 0;
-  font-size:2.2em;
-  color:#c40;
+  margin: 0 0 .5em 0;
+  font-size: 2.2em;
+  color: #c40;
 }
 h3{
-  font-size:1.6em;
-  color:#000;
+  font-size: 1.6em;
+  color: #000;
 }
 p{
-  margin:0 0 1em 0;
+  margin: 0 0 1em 0;
 }
 ul{
-  margin:0 0 1em 0;
+  margin: 0 0 1em 0;
 }
 li{
-  margin:.5em 0;
+  margin: 0.5em 0;
 }
 li:before{
   content:'★';
-  font-size:.7em;
-  margin:0 1em 0 0;
+  font-size: 0.7em;
+  margin: 0 1em 0 0;
 }
 a{
-  color:#c40;
-  text-decoration:underline;
+  color: #c40;
+  text-decoration: underline;
 }
 a:focus,
 a:hover{
-  text-decoration:none;
+  text-decoration: none;
 }
 
 h3 a{
   color:#000;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 h3 a:focus,
@@ -135,8 +135,8 @@ h3 a:hover{
 }
 
 strong{
-  color:#222;
-  font-weight:bold;
+  color: #222;
+  font-weight: bold;
 }
 
 em {
@@ -145,13 +145,13 @@ em {
 
 .date,
 .desc {
-  color:#444;
+  color: #444;
   font-style: italic;
 }
 
 .date a,
 .desc a{
-  color:#444;
+  color: #444;
 }
 
 .bouton {
@@ -173,77 +173,17 @@ em {
 
 /* rwd */
 
-@media screen and (min-width:480px){
+@media screen and (min-width: 480px){
 
   h1{
-    font-size:3em;
+    font-size: 3em;
   }
 
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width: 600px){
 
   body{
-    font-size:1.3125em;
+    font-size: 1.3125em;
   }
-
-  .icon:before{
-    content:'';
-    display:block;
-    width:50px;
-    height:50px;
-    float:left;
-    margin:.5em 0 0 -4em;
-    background:transparent url('images/icons.png') no-repeat top left;
-  }
-  /* Sprite
-   * http://glue.readthedocs.org/en/latest/
-   * glue dossier-input dossier-output
-   */
-   .wetruck:before{background-position: 0 0;}
-   .tdp16:before{background-position: -50px 0;}
-   .tdp14:before{background-position: 0 -50px;}
-   .tdp13:before{background-position: -50px -50px;}
-   .tdp12:before{background-position: -100px 0;}
-   .sudweb:before{background-position: -100px -50px;}
-   .spread:before{background-position: 0 -100px;}
-   .sgroud:before{background-position: -50px -100px;}
-   .sartory:before{background-position: -100px -100px;}
-   .rouensurmer:before{background-position: -150px 0;}
-   .rouen:before{background-position: -150px -50px;}
-   .rouen-impressionnee:before{background-position: -150px -100px;}
-   .pnee:before{background-position: 0 -150px;}
-   .pernod:before{background-position: -50px -150px;}
-   .pae:before{background-position: -100px -150px;}
-   .outremer:before{background-position: -150px -150px;}
-   .nwx:before{background-position: -200px 0;}
-   .nomad:before{background-position: -200px -50px;}
-   .msi:before{background-position: -200px -100px;}
-   .msa:before{background-position: -200px -150px;}
-   .metropole:before{background-position: 0 -200px;}
-   .merezo:before{background-position: -50px -200px;}
-   .memurb:before{background-position: -100px -200px;}
-   .mao:before{background-position: -150px -200px;}
-   .kstudio:before{background-position: -200px -200px;}
-   .keynit:before{background-position: -250px 0;}
-   .jmm:before{background-position: -250px -50px;}
-   .ihp:before{background-position: -250px -100px;}
-   .horreur:before{background-position: -250px -150px;}
-   .historia:before{background-position: -250px -200px;}
-   .frb:before{background-position: 0 -250px;}
-   .forum-digital:before{background-position: -50px -250px;}
-   .fendzy:before{background-position: -100px -250px;}
-   .ell:before{background-position: -150px -250px;}
-   .econocom:before{background-position: -200px -250px;}
-   .drupal:before{background-position: -250px -250px;}
-   .dowego:before{background-position: -300px 0;}
-   .codeurs:before{background-position: -300px -50px;}
-   .code-igniter:before{background-position: -300px -100px;}
-   .cnp:before{background-position: -300px -150px;}
-   .ciamt:before{background-position: -300px -200px;}
-   .big:before{background-position: -300px -250px;}
-   .autrecercle:before{background-position: 0 -300px;}
-   .aperoweb:before{background-position: -50px -300px;}
-   .amvr:before{background-position: -100px -300px;}
-   .aen:before{background-position: -150px -300px;}
 }
