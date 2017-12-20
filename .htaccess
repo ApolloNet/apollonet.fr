@@ -3,6 +3,8 @@ AddDefaultCharset	UTF-8
 AddCharset UTF-8 .html
 AddCharset UTF-8 .css
 AddCharset UTF-8 .js
+AddCharset UTF-8 .woff
+AddCharset UTF-8 .woff2
 AddLanguage fr-FR .html .css .js
 
 # Etags
@@ -78,10 +80,9 @@ DirectoryIndex index.php index.html
   Header set X-Content-Type-Options "nosniff"
 
   # CSP
-  #Header set Content-Security-Policy    "default-src 'self'"
-  #Header set X-Content-Security-Policy  "default-src 'self'"
-  #Header set X-WebKit-CSP               "default-src 'self'"
-  #Header set Content-Security-Policy    "default-src 'self'"
+  Header set Content-Security-Policy    "default-src 'self' 'unsafe-inline' data:"
+  Header set X-Content-Security-Policy  "default-src 'self' 'unsafe-inline' data:"
+  Header set X-WebKit-CSP               "default-src 'self' 'unsafe-inline' data:"
 
   #HSTS
   Header set Strict-Transport-Security  "max-age=16000000; includeSubDomains; preload"
@@ -90,6 +91,9 @@ DirectoryIndex index.php index.html
   <FilesMatch "\.(pl|php|cgi|spl)$">
     Header set X-XSS-Protection "1; mode=block"
   </FilesMatch>
+
+  # Avoid Clickjacking
+  Header always set X-FRAME-OPTIONS "DENY"
 
 </IfModule>
 
