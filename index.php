@@ -31,13 +31,11 @@
 
     <h2>Développeur Web Freelance</h2>
 
-    <article>
-      <p><strong>ApolloNet</strong>, c'est <a href="#contact">Alexandre Ronsaut</a>, <strong>développeur web indépendant</strong> à Rouen, en Normandie.</p>
-      <p>Mes <a href="#competences">prestations</a> sont orientées vers la <strong>qualité web</strong> grâce à ma sensibilité pour l'ergonomie et le design d'interface. Et grâce à une veille constante sur les standards du web, l'ergonomie, le référencement, l'accessibilité et la performance.</p>
-      <p>Mes <a href="#references">nombreuses collaborations</a> autour de projets culturels sur la toile sont le reflet d'un engagement pour la diffusion et l'appropriation, par chacun, de nos biens communs que sont les arts, les sciences et l'histoire.</p>
-      <p>J'interviens lors de <a href="#orateur">conférences et ateliers</a> sur la conception et le développement web.</p>
-      <p>Enfin, je participe à l'organisation de <a href="#associations">conférences et rencontres</a> dédiées aux développeurs et webdesigners.</p>
-    </article>
+    <p><strong>ApolloNet</strong>, c'est <a href="#contact">Alexandre Ronsaut</a>, <strong>développeur web indépendant</strong> à Rouen, en Normandie.</p>
+    <p>Mes <a href="#competences">prestations</a> sont orientées vers la <strong>qualité web</strong> grâce à ma sensibilité pour l'ergonomie et le design d'interface. Et grâce à une veille constante sur les standards du web, l'ergonomie, le référencement, l'accessibilité et la performance.</p>
+    <p>Mes <a href="#references">nombreuses collaborations</a> autour de projets culturels sur la toile sont le reflet d'un engagement pour la diffusion et l'appropriation, par chacun, de nos biens communs que sont les arts, les sciences et l'histoire.</p>
+    <p>J'interviens lors de <a href="#orateur">conférences et ateliers</a> sur la conception et le développement web.</p>
+    <p>Enfin, je participe à l'organisation de <a href="#associations">conférences et rencontres</a> dédiées aux développeurs et webdesigners.</p>
 
   </section>
 
@@ -59,13 +57,13 @@
 
     <article>
       <h3>Expertise Drupal</h3>
-      <p class="desc">Je travaille avec le CMS <a href="http://drupal.org/" title="CMS Drupal">Drupal</a> quotidiennement depuis plus de <?php print date('Y') - 2007; ?> ans.</p>
+      <p class="desc">Je travaille avec le CMS <a href="http://drupal.org/" title="CMS Drupal">Drupal</a> quotidiennement depuis plus de 10 ans.</p>
       <ul>
         <li>Bonne connaissance de l'écosystème Drupal</li>
         <li>Développement PHP, MySQL</li>
         <li>Maîtrise des APIs</li>
         <li>Développement de module</li>
-        <li>Développement front end et Thème</li>
+        <li>Développement front end et thème</li>
         <li>Formation</li>
       </ul>
     </article>
@@ -76,22 +74,110 @@
 
     <h2>Contact</h2>
 
-    <article>
-      <p>Contactez <strong>Alexandre Ronsaut</strong> pour toute demande d'informations :</p>
-      <ul>
-        <li>Email : <a href="mailto:alex@apollonet.fr">alex@apollonet.fr</a></li>
-        <li>Twitter : <a href="http://twitter.com/alexronsaut">@alexronsaut</a></li>
-      </ul>
-    </article>
+    <p>Contactez <strong>Alexandre Ronsaut</strong> pour toute demande d'informations :</p>
+    <ul>
+      <li>Email : <a href="mailto:alex@apollonet.fr">alex@apollonet.fr</a></li>
+      <li>Twitter : <a href="http://twitter.com/alexronsaut">@alexronsaut</a></li>
+    </ul>
 
   </section>
 
   <section id="references">
 
-    <h2>Créations de Site Internet</h2>
+    <h2>Créations de sites web</h2>
+
+    <article>
+      <h3>60 Millions de Consommateurs</h3>
+      <p class="date"><time datetime="2017-11-01">Novembre 2017</time></p>
+      <p>Développements pour le magazine <a href="http://www.60millions-mag.com/">60 Millions de Consommateurs</a>.</p>
+      <ul>
+        <li>Développement Drupal</li>
+        <li>Développement front end</li>
+      </ul>
+    </article>
+
+    <article class="icon rouen">
+      <h3>Le CLIC de Rouen</h3>
+      <p class="date"><time datetime="2017-10-03">Octobre 2017</time></p>
+      <p>Refonte des interfaces du site <a href="http://www.clic-rouen.fr">CLIC des Aînés</a> et création de la plateforme dédiée aux professionnels du troisième âge <a href="https://pro.clic-agglo-rouen.fr/">MAIA Rouen Rouvray</a>.</p>
+      <ul>
+        <li>Conception des interfaces</li>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique</li>
+        <li>Développement front end</li>
+        <li>Formation à la publication</li>
+      </ul>
+    </article>
+
+    <article class="icon nomad">
+      <h3>NoMadMusic</h3>
+      <p class="date"><time datetime="2017-10-01">De Mars à Octobre 2017</time></p>
+      <p>CTO pour le label de musique classique <a href="http://nomadmusic.fr/">NoMadMusic</a>.</p>
+      <ul>
+        <li>Facilitation technique pour la création d'une application mobile</li>
+        <li>Encadrement des ingénieurs en traitement du signal</li>
+        <li>Conception d'interfaces web et mobile</li>
+        <li>Développement web</li>
+      </ul>
+    </article>
+
+    <article class="icon pernod">
+      <h3>Pernod Ricard</h3>
+      <p class="date"><time datetime="2017-07-01">Mai et Juillet 2017</time></p>
+      <p>Développement d'une application web pour Pernod Ricard.</p>
+      <ul>
+        <li>Développement Drupal</li>
+      </ul>
+    </article>
+
+    <article class="icon metropole">
+      <h3>Exposition Une Saison Picasso</h3>
+      <p class="date"><time datetime="2017-03-24">Mars 2017</time></p>
+      <p>Mécénat pour la Réunion des Musées Métropolitains Rouen Normandie et l'exposition <a href="http://saisonpicassorouen.fr/">Une Saison Picasso</a>.</p>
+      <ul>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique</li>
+        <li>Développement front end</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Archi Rouen</h3>
+      <p class="date"><time datetime="2017-02-01">Février 2017</time></p>
+      <p>Création du site web <a href="https://archi-rouen.fr/">Archi Rouen</a>, «&nbsp;L'architecture contemporaine à Rouen&nbsp;», pour la Maison de l'Architecture de Normandie et la Mairie de Rouen.</p>
+      <ul>
+        <li>Conception des interfaces</li>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique</li>
+        <li>Développement front end</li>
+        <li>Optimisation des performances</li>
+        <li>Formation à la publication</li>
+      </ul>
+    </article>
+
+    <article class="icon tdp16">
+      <h3>Terres de Paroles 2017</h3>
+      <p class="date"><time datetime="2017-02-01">Février 2017</time></p>
+      <p>Site web du festival <a href="http://2017.terresdeparoles.com/">Terres de Paroles</a> : lectures, performances, spectacles, rencontres en Normandie.</p>
+      <ul>
+        <li>Configuration du CMS Drupal</li>
+        <li>Développement back end</li>
+        <li>Rédaction de la documentation</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Terres Innovantes</h3>
+      <p class="date"><time datetime="2017-02-01">Février 2017</time></p>
+      <p>Développement et intégration pour le site <a href="https://terresinnovantes.org/">Terres Innovantes</a>, fonds de dotation de Jeunes Agriculteurs.</p>
+      <ul>
+        <li>Configuration du CMS Drupal</li>
+        <li>Intégration graphique et développement web</li>
+      </ul>
+    </article>
 
     <article class="icon msa">
-      <h3><a href="https://montsaintaignan.fr/">Mont-Saint-Aignan</a></h3>
+      <h3>Mont-Saint-Aignan</h3>
       <p class="date"><time datetime="2016-09-01">Septembre 2016</time></p>
       <p>Développement du site web de la ville de <a href="https://montsaintaignan.fr/">Mont-Saint-Aignan</a>.</p>
       <ul>
@@ -112,7 +198,7 @@
     </article>
 
     <article class="icon rouen">
-      <h3><a href="http://www.clic-rouen.fr">Le CLIC de Rouen</a></h3>
+      <h3>Le CLIC de Rouen</h3>
       <p class="date"><time datetime="2016-05-10">Mai 2016</time></p>
       <p>Itération sur le site du <a href="http://www.clic-rouen.fr">CLIC de Rouen</a>, service aux ainés de la Mairie de Rouen.</p>
       <ul>
@@ -133,7 +219,7 @@
     </article>
 
     <article class="icon pae">
-      <h3><a href="http://lesgardiensdusavoir.fr/">Les Gardiens du Savoir</a></h3>
+      <h3>Les Gardiens du Savoir</h3>
       <p class="date"><time datetime="2016-04-04">Avril 2016</time></p>
       <p>Développement du site web <a href="http://lesgardiensdusavoir.fr/">Les Gardiens du Savoir</a> pour la promotion des métiers d'art en Pays d'Auge.</p>
       <ul>
@@ -144,7 +230,7 @@
     </article>
 
     <article class="icon ell">
-      <h3><a href="http://entreleslignes-larevue.fr/">Entre les lignes</a></h3>
+      <h3>Entre les lignes</h3>
       <p class="date"><time datetime="2016-02-01">Mars 2016</time></p>
       <p>Site web <a href="http://entreleslignes-larevue.fr/">Entre les lignes</a>, revue littéraire du festival Terres de Paroles.</p>
       <ul>
@@ -156,9 +242,9 @@
     </article>
 
     <article class="icon tdp16">
-      <h3><a href="http://terresdeparoles.com/">Terres de Paroles 2016</a></h3>
+      <h3>Terres de Paroles 2016</h3>
       <p class="date"><time datetime="2016-02-01">Février 2016</time></p>
-      <p>Site web du festival <a href="http://terresdeparoles.com/">Terres de Paroles</a>, nouvelle formule : lectures, performances, spectacles, rencontres en Normandie.</p>
+      <p>Site web du festival <a href="http://2016.terresdeparoles.com/">Terres de Paroles</a>, nouvelle formule : lectures, performances, spectacles, rencontres en Normandie.</p>
       <ul>
         <li>Ergonomie et conception des interfaces</li>
         <li>Configuration du CMS Drupal</li>
@@ -167,7 +253,7 @@
     </article>
 
     <article class="icon metropole">
-      <h3><a href="http://musees-rouen-normandie.fr/">Réunion des Musées Métropolitains Rouen Normandie</a></h3>
+      <h3>Réunion des Musées Métropolitains Rouen Normandie</h3>
       <p class="date"><time datetime="2016-01-05">Janvier 2016</time></p>
       <p>Sites web de la <a href="http://musees-rouen-normandie.fr/">Réunion des Musées Métropolitains Rouen Normandie</a>.</p>
       <ul>
@@ -181,8 +267,16 @@
       </ul>
     </article>
 
+    <p><a href="#references-plus" class="bouton">+ Références plus anciennes</a></p>
+
+  </section>
+
+  <section id="references-plus">
+
+    <h2>Références plus anciennes</h2>
+
     <article class="icon amvr">
-      <h3><a href="http://amis-musees-rouen.fr">Amis des Musées de la Ville de Rouen</a></h3>
+      <h3>Amis des Musées de la Ville de Rouen</h3>
       <p class="date"><time datetime="2015-11-18">Novembre 2015</time></p>
       <p>Développement du site web de l'association des <a href="http://amis-musees-rouen.fr">Amis des Musées de la Ville de Rouen</a>.</p>
       <ul>
@@ -195,9 +289,9 @@
     </article>
 
     <article class="icon nomad">
-      <h3><a href="http://nomadmusic.fr/">NoMadMusic</a></h3>
+      <h3>NoMadMusic</h3>
       <p class="date"><time datetime="2015-11-17">Novembre 2015</time></p>
-      <p>Intégration d'une application de composition musicale sur le site web de <a href="http://nomadmusic.fr">NoMadMusic</a> et configuration du système de vote.</p>
+      <p>Intégration d'une application de composition musicale sur le site web de <a href="https://nomadmusic.fr/">NoMadMusic</a> et configuration du système de vote.</p>
       <ul>
         <li>Configuration du CMS Drupal</li>
         <li>Développement PHP</li>
@@ -206,9 +300,9 @@
     </article>
 
     <article>
-      <h3><a href="http://museeduverre.fr">Musée du Verre de Conches-en-Ouche</a></h3>
+      <h3>Musée du Verre de Conches-en-Ouche</h3>
       <p class="date"><time datetime="2015-09-09">Septembre 2015</time></p>
-      <p>Développement du site web du <a href="http://museeduverre.fr" title="Musée du Verre de Conches-en-Ouche">Musée du Verre</a> de Conches-en-Ouche.</p>
+      <p>Développement du site web du <a href="http://museeduverre.fr/" title="Musée du Verre de Conches-en-Ouche">Musée du Verre</a> de Conches-en-Ouche.</p>
       <ul>
         <li>Conception des interfaces</li>
         <li>Direction artistique</li>
@@ -220,9 +314,9 @@
     </article>
 
     <article class="icon wetruck">
-      <h3><a href="http://wetruck.fr">WeTruck</a></h3>
+      <h3>WeTruck</h3>
       <p class="date"><time datetime="2015-05-26">Mai 2015</time></p>
-      <p>Développement du Minimum Viable Product pour <a href="http://wetruck.fr">WeTruck</a>, service de voyage en camion pour particuliers.</p>
+      <p>Développement du Minimum Viable Product pour <a href="http://wetruck.fr/">WeTruck</a>, service de voyage en camion pour particuliers.</p>
       <ul>
         <li>Développement PHP avec le framework <a href="http://symfony.com">Symfony</a></li>
         <li>Développement front end</li>
@@ -230,9 +324,9 @@
     </article>
 
     <article class="icon tdp14">
-      <h3><a href="http://terres-de-paroles.com">Terres de Paroles 2015</a></h3>
+      <h3>Terres de Paroles 2015</h3>
       <p class="date"><time datetime="2014-04-23">Avril 2015</time></p>
-      <p>Site web du festival de littérature <a href="http://terres-de-paroles.com">Terres de Paroles</a>, quatrième édition.</p>
+      <p>Site web du festival de littérature <a href="http://2015.terres-de-paroles.com">Terres de Paroles</a>, quatrième édition.</p>
       <ul>
         <li>Développement autour du CMS Drupal</li>
         <li>Intégration HTML, CSS</li>
@@ -250,9 +344,9 @@
     </article>
 
     <article class="icon outremer">
-      <h3><a href="http://cultures-outre-mer.fr">Agence de Promotion et de Diffusion des Cultures de l'Outre-Mer</a></h3>
+      <h3>Agence de Promotion et de Diffusion des Cultures de l'Outre-Mer</h3>
       <p class="date"><time datetime="2015-02-19">Février 2015</time></p>
-      <p>Développement du site web de l'<a href="http://cultures-outre-mer.fr">Agence de Promotion et de Diffusion des Cultures de l'Outre-Mer</a>.</p>
+      <p>Développement du site web de l'<a href="http://cultures-outre-mer.fr/">Agence de Promotion et de Diffusion des Cultures de l'Outre-Mer</a>.</p>
       <ul>
         <li>Configuration du CMS Drupal</li>
         <li>Système multi-langue : français et anglais</li>
@@ -262,16 +356,8 @@
       </ul>
     </article>
 
-    <p><a href="#references-plus" class="bouton">+ Références plus anciennes</a></p>
-
-  </section>
-
-  <section id="references-plus">
-
-    <h2>Références plus anciennes</h2>
-
     <article class="icon aen">
-      <h3><a href="http://automne-en-normandie.com">Automne en Normandie</a></h3>
+      <h3>Automne en Normandie</h3>
       <p class="date"><time datetime="2015-01-29">Janvier 2015</time></p>
       <p>Fin du festival <a href="http://automne-en-normandie.com">Automne en Normandie</a>, remerciements.</p>
       <ul>
@@ -280,7 +366,7 @@
     </article>
 
     <article class="icon rouen">
-      <h3><a href="http://rouen-musees.fr">Musées de la Ville de Rouen</a></h3>
+      <h3>Musées de la Ville de Rouen</h3>
       <p class="date"><time datetime="2015-12-31">Décembre 2014</time></p>
       <p>Intégration des vœux des <a href="http://rouen-musees.fr">Musées de la Ville de Rouen</a> à ses sites web.</p>
       <ul>
@@ -289,9 +375,9 @@
     </article>
 
     <article class="icon nomad">
-      <h3><a href="http://nomadmusic.fr">NoMadMusic</a></h3>
+      <h3>NoMadMusic</h3>
       <p class="date"><time datetime="2014-10-16">Octobre 2014</time></p>
-      <p>Conception et développement de nouveaux contenus sur le site web de <a href="http://nomadmusic.fr">NoMadMusic</a>, maison de disque et magazine musical en ligne.</p>
+      <p>Conception et développement de nouveaux contenus sur le site web de <a href="https://nomadmusic.fr">NoMadMusic</a>, maison de disque et magazine musical en ligne.</p>
       <ul>
         <li>Conception ergonomique</li>
         <li>Paramétrage du CMS Drupal</li>
@@ -300,7 +386,7 @@
     </article>
 
     <article class="icon fendzy">
-      <h3><a href="http://fendzy.com">Fendzy</a></h3>
+      <h3>Fendzy</h3>
       <p class="date"><time datetime="2014-10-09">Octobre 2014</time></p>
       <p>Audit de la configuration du CMS Drupal pour le site web <a href="http://fendzy.com">Fendzy</a>, annuaire et réseau social de jeux.</p>
       <ul>
@@ -311,9 +397,9 @@
     </article>
 
     <article class="icon nomad">
-      <h3><a href="http://nomadmusic.fr">NoMadMusic</a></h3>
+      <h3>NoMadMusic</h3>
       <p class="date"><time datetime="2014-08-29">Août 2014</time></p>
-      <p>Conception et développement des <em>Résidences Numériques</em> sur le site web de <a href="http://nomadmusic.fr">NoMadMusic</a>, maison de disque et magazine musical en ligne.</p>
+      <p>Conception et développement des <em>Résidences Numériques</em> sur le site web de <a href="https://nomadmusic.fr">NoMadMusic</a>, maison de disque et magazine musical en ligne.</p>
       <ul>
         <li>Conception ergonomique</li>
         <li>Configuration du CMS Drupal</li>
@@ -322,9 +408,9 @@
     </article>
 
     <article class="icon msa">
-      <h3><a href="http://montsaintaignan.fr">Ville de Mont-Saint-Aignan</a></h3>
+      <h3>Ville de Mont-Saint-Aignan</h3>
       <p class="date"><time datetime="2014-08-25">Août 2014</time></p>
-      <p>Adaptation du site internet de la ville de <a href="http://montsaintaignan.fr">Mont-Saint-Aignan</a> aux différents formats d'écrans : mobiles, tablettes et ordinateurs.</p>
+      <p>Adaptation du site internet de la ville de <a href="https://montsaintaignan.fr">Mont-Saint-Aignan</a> aux différents formats d'écrans : mobiles, tablettes et ordinateurs.</p>
       <ul>
         <li>Conception <em>responsive</em> dans le navigateur</li>
         <li>Développement JavaScript</li>
@@ -346,9 +432,9 @@
     </article>
 
     <article class="icon msa">
-      <h3><a href="http://montsaintaignan.fr">Ville de Mont-Saint-Aignan</a></h3>
+      <h3>Ville de Mont-Saint-Aignan</h3>
       <p class="date"><time datetime="2014-06-04">Juin 2014</time></p>
-      <p>Sécurisation du site internet de la ville de <a href="http://montsaintaignan.fr">Mont-Saint-Aignan</a>.</p>
+      <p>Sécurisation du site internet de la ville de <a href="https://montsaintaignan.fr">Mont-Saint-Aignan</a>.</p>
       <ul>
         <li>Mise à jour du CMS</li>
         <li>Conseil en sécurité web</li>
@@ -356,7 +442,7 @@
     </article>
 
     <article class="icon aen">
-      <h3><a href="http://2014.automne-en-normandie.com">Automne en Normandie 2014</a></h3>
+      <h3>Automne en Normandie 2014</h3>
       <p class="date"><time datetime="2014-06-04">Juin 2014</time></p>
       <p>Site web de l'édition 2014 du festival <a href="http://2014.automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
       <ul>
@@ -366,7 +452,7 @@
     </article>
 
     <article class="icon tdp14">
-      <h3><a href="http://2014.terres-de-paroles.com">Terres de Paroles 2014</a></h3>
+      <h3>Terres de Paroles 2014</h3>
       <p class="date"><time datetime="2014-04-22">Avril 2014</time></p>
       <p>Site web du festival de littérature <a href="http://2014.terres-de-paroles.com">Terres de Paroles</a>, troisième édition.</p>
       <ul>
@@ -386,7 +472,7 @@
     </article>
 
     <article class="icon autrecercle">
-      <h3><a href="http://www.autrecercle.org">L'Autre Cercle</a></h3>
+      <h3>L'Autre Cercle</h3>
       <p class="date"><time datetime="2014-03-03">Mars 2014</time></p>
       <p>Poursuite du partenariat avec <a href="http://www.autrecercle.org">L'Autre Cercle</a>, fédération nationale des associations d'homosexuels luttant contre les discriminations.</p>
       <ul>
@@ -398,7 +484,7 @@
     </article>
 
     <article class="icon rouen">
-      <h3><a href="http://www.rouen-musees.fr">Les Musées de la Ville de Rouen</a></h3>
+      <h3>Les Musées de la Ville de Rouen</h3>
       <p class="date"><time datetime="2014-03-03">Mars 2014</time></p>
       <p>Sites web des <a href="http://rouen-musees.fr">Musées de Rouen</a>.</p>
       <ul>
@@ -407,9 +493,9 @@
     </article>
 
     <article class="icon nomad">
-      <h3><a href="http://nomadmusic.fr">NoMadMusic</a></h3>
+      <h3>NoMadMusic</h3>
       <p class="date"><time datetime="2014-01-28">Janvier 2014</time></p>
-      <p>Conception et développement du site web de la maison de disque et magazine musical en ligne <a href="http://nomadmusic.fr">NoMadMusic</a>.</p>
+      <p>Conception et développement du site web de la maison de disque et magazine musical en ligne <a href="https://nomadmusic.fr">NoMadMusic</a>.</p>
       <ul>
         <li>Conception ergonomique</li>
         <li>Configuration du CMS Drupal</li>
@@ -423,7 +509,7 @@
     </article>
 
     <article class="icon horreur">
-      <h3><a href="http://horreur.net">Horreur.net</a></h3>
+      <h3>Horreur.net</h3>
       <p class="date"><time datetime="2013-12-26">Décembre 2013</time></p>
       <p>Refonte du site <a href="http://horreur.net">Horreur.net</a>.</p>
       <ul>
@@ -434,7 +520,7 @@
     </article>
 
     <article class="icon sgroud">
-      <h3><a href="http://http://compagniemad.fr">Compagnie MAD, Sylvain Groud</a></h3>
+      <h3>Compagnie MAD, Sylvain Groud</h3>
       <p class="date"><time datetime="2013-12-26">Décembre 2013</time></p>
       <p>Refonte du site web du danceur <a href="http://http://compagniemad.fr">Sylvain Groud</a>.</p>
       <ul>
@@ -450,7 +536,7 @@
     </article>
 
     <article class="icon autrecercle">
-      <h3><a href="http://www.autrecercle.org">L'Autre Cercle</a></h3>
+      <h3>L'Autre Cercle</h3>
       <p class="date"><time datetime="2013-07-04">Juillet 2013</time></p>
       <p>Refonte du site web de <a href="http://www.autrecercle.org">L'Autre Cercle</a>, fédération nationale des associations d'homosexuels luttant contre les discriminations.</p>
       <ul>
@@ -463,13 +549,13 @@
     </article>
 
     <article class="icon spread">
-      <h3><a href="http://sb.am">Spread</a></h3>
+      <h3>Spread</h3>
       <p class="date"><time datetime="2013-06-11">Juin 2013</time></p>
-      <p>Création d'un module Drupal pour intégrer le service <a href="http://sb.am">Spread</a> avec <a href="http://www.drupalcommerce.org">Drupal Commerce</a>.</p>
+      <p>Création d'un module Drupal pour intégrer le service <a href="https://spreadfamily.fr/">Spread</a> avec <a href="http://www.drupalcommerce.org">Drupal Commerce</a>.</p>
     </article>
 
     <article class="icon rouen">
-      <h3><a href="http://www.rouen-musees.fr">Les Musées de la Ville de Rouen</a></h3>
+      <h3>Les Musées de la Ville de Rouen</h3>
       <p class="date"><time datetime="2013-04-27">Avril 2013</time></p>
       <p>Sites web des Musées de Rouen : <a href="http://mbarouen.fr">Musée des Beaux-Arts</a>, <a href="http://museedelaceramique.fr">Musée de la Céramique</a>, <a href="http://museelesecqdestournelles.fr">Musée le Secq des Tournelles</a> et Exposition Éblouissants Reflets.</p>
       <ul>
@@ -487,7 +573,7 @@
     </article>
 
     <article class="icon aen">
-      <h3><a href="http://2013.automne-en-normandie.com">Automne en Normandie 2013</a></h3>
+      <h3>Automne en Normandie 2013</h3>
       <p class="date"><time datetime="2013-03-11">Mars 2013</time></p>
       <p>Site web de l'édition 2013 du festival <a href="http://2013.automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
       <ul>
@@ -497,7 +583,7 @@
     </article>
 
     <article class="icon tdp13">
-      <h3><a href="http://2013.terres-de-paroles.com">Terres de Paroles 2013</a></h3>
+      <h3>Terres de Paroles 2013</h3>
       <p class="date"><time datetime="2013-03-19">Mars 2013</time></p>
       <p>Site web du festival de littérature <a href="http://2013.terres-de-paroles.com">Terres de Paroles</a>, seconde édition.</p>
       <ul>
@@ -507,7 +593,7 @@
     </article>
 
     <article class="icon frb">
-      <h3><a href="http://fondationrainbowbridge.org">Fondation Rainbow Bridge</a></h3>
+      <h3>Fondation Rainbow Bridge</h3>
       <p class="date"><time datetime="2013-01-16">Janvier 2013</time></p>
       <p>Refonte du site web de la <a href="http://fondationrainbowbridge.org">Fondation Rainbow Bridge</a>.</p>
       <ul>
@@ -523,7 +609,7 @@
     </article>
 
     <article class="icon aen">
-      <h3><a href="http://2012.automne-en-normandie.com">Automne en Normandie 2012</a></h3>
+      <h3>Automne en Normandie 2012</h3>
       <p class="date"><time datetime="2012-09-01">Septembre 2012</time></p>
       <p>Création du site web du festival <a href="http://2012.automne-en-normandie.com">Automne en Normandie</a> : Théâtre, Musique et Danse.</p>
       <ul>
@@ -543,7 +629,7 @@
     </article>
 
     <article class="icon tdp12">
-      <h3><a href="http://2012.terres-de-paroles.com">Terres de Paroles 2012</a></h3>
+      <h3>Terres de Paroles 2012</h3>
       <p class="date"><time datetime="2012-05-21">Mai 2012</time></p>
       <p>Création du site web du festival de littérature <a href="http://2012.terres-de-paroles.com">Terres de Paroles</a>.</p>
       <ul>
@@ -561,7 +647,7 @@
     </article>
 
     <article class="icon sartory">
-      <h3><a href="http://sartoryartists.com">Sartory Artists</a></h3>
+      <h3>Sartory Artists</h3>
       <p class="date"><time datetime="2012-05-16">Mai 2012</time></p>
       <p>Création du site <a href="http://sartoryartists.com">Sartory Artists</a>, management d'artistes et de projets pour la musique classique.</p>
       <ul>
@@ -573,7 +659,7 @@
     </article>
 
     <article class="icon rouen">
-      <h3><a href="http://www.clic-rouen.fr">Le CLIC de Rouen</a></h3>
+      <h3>Le CLIC de Rouen</h3>
       <p class="date"><time datetime="2011-05-16">Mai 2012</time></p>
       <p>Refonte du site du <a href="http://www.clic-rouen.fr">CLIC de Rouen</a>, service aux ainés de la Mairie de Rouen.</p>
       <ul>
@@ -584,7 +670,7 @@
     </article>
 
     <article class="icon aen">
-      <h3><a href="http://automne-en-normandie.com">Arts 276</a></h3>
+      <h3>Arts 276</h3>
       <p class="date"><time datetime="2012-02-20">Février 2012</time></p>
       <p>Audit et rédaction du cahier des charges techniques et fonctionnelles pour les festivals <strong>Terres de Paroles</strong> et <a href="http://automne-en-normandie.com">Automne en Normandie</a>.</p>
     </article>
@@ -605,7 +691,7 @@
     </article>
 
     <article class="icon keynit">
-      <h3><a href="http://www.keynit.com">Keynit</a></h3>
+      <h3>Keynit</h3>
       <p class="date"><time datetime="2012-01-16">Janvier 2012</time></p>
       <p>Intégration de la maquette graphique du site corporate <a href="http://www.keynit.com">Keynit</a>.</p>
       <p>Pour l'agence web 37e Parallèle.</p>
@@ -617,7 +703,7 @@
     </article>
 
     <article class="icon cnp">
-      <h3><a href="http://cnp-finances.fr">CNP Finances</a></h3>
+      <h3>CNP Finances</h3>
       <p class="date"><time datetime="2011-12-15">Décembre 2011</time></p>
       <p>Support technique à la refonte du site <a href="http://www.cnp-finances.fr">CNP Finances</a>.</p>
       <p>Pour Cervoni Conseil, e-stratégie et communication électronique.</p>
@@ -630,7 +716,7 @@
     </article>
 
     <article class="icon mao">
-      <h3><a href="http://musicaouir.fr">Musiques à Ouïr</a></h3>
+      <h3>Musiques à Ouïr</h3>
       <p class="date"><time datetime="2011-12-12">Décembre 2011</time></p>
       <p>Refonte du site de <a href="http://musicaouir.fr">La Campagnie des Musiques à Ouïr</a>, association jazz.</p>
       <ul>
@@ -641,7 +727,7 @@
     </article>
 
     <article class="icon jmm">
-      <h3><a href="http://jeanmarcmorandini.com">Jean-Marc Morandini</a></h3>
+      <h3>Jean-Marc Morandini</h3>
       <p class="date"><time datetime="2011-07-26">Juillet 2011</time></p>
       <p>Refonte du site d'actualités people <a href="http://jeanmarcmorandini.com">Jean-Marc Morandini</a>.</p>
       <p>Pour Bolloré Média.</p>
@@ -656,7 +742,7 @@
     </article>
 
     <article class="icon aen">
-      <h3><a href="http://2011.automne-en-normandie.com">Automne en Normandie 2011</a></h3>
+      <h3>Automne en Normandie 2011</h3>
       <p class="date"><time datetime="2011-06-04">Juin 2011</time></p>
       <p>Site web de l'édition 2011 du festival <a href="http://2011.automne-en-normandie.com">Automne en Normandie</a>.</p>
       <ul>
@@ -667,7 +753,7 @@
     </article>
 
     <article class="icon memurb">
-      <h3><a href="http://memoires-urbaines.fr">Mémoires Urbaines</a></h3>
+      <h3>Mémoires Urbaines</h3>
       <p class="date"><time datetime="2011-04-20">Avril 2011</time> et <time datetime="2011-04-20">Juin 2011</time></p>
       <p>Sites web et mobile des <a href="http://memoires-urbaines.fr">Mémoires Urbaines</a>.</p>
       <p>Pour le Grand Projet de Ville et la <a href="http://rouen.fr">Ville de Rouen</a>.</p>
@@ -680,14 +766,14 @@
     </article>
 
     <article class="icon dowego">
-      <h3><a href="http://dowego.org">Dowego</a></h3>
+      <h3>Dowego</h3>
       <p class="date"><time datetime="2011-05-31">Mai 2011</time></p>
       <p>Conseil en architecture web et Drupal sur <a href="http://dowego.org">Dowego</a>, plateforme collaborative et moteur de recherche de lieux et d'événements.</p>
       <p>Pour Guillaume Vielliard, Freelance Drupal.</p>
     </article>
 
     <article class="icon merezo">
-      <h3><a href="https://ccirezo-normandie.fr">CCI Rézo Normandie</a></h3>
+      <h3>CCI Rézo Normandie</h3>
       <p class="date"><time datetime="2011-01-03">Janvier 2011</time></p>
       <p>Plateforme collaborative <a href="https://ccirezo-normandie.fr">CCI Rézo Normandie</a>.</p>
       <p>Pour la Chambre Régionale de Commerce et d'Industrie de Haute-Normandie.</p>
@@ -701,7 +787,7 @@
     </article>
 
     <article class="icon econocom">
-      <h3><a href="http://www.econocom.com">Econocom</a></h3>
+      <h3>Econocom</h3>
       <p class="date"><time datetime="2010-09-17">Septembre 2010</time></p>
       <p>Site web corporate de <a href="http://www.econocom.com">Econocom</a>.</p>
       <p>Pour l'agence web Olympe Interactive.</p>
@@ -711,9 +797,9 @@
     </article>
 
     <article class="icon ihp">
-      <h3>Site institutionnel</h3>
+      <h3>Institut Henri Poincaré</h3>
       <p class="date"><time datetime="2010-09-03">Septembre 2010</time></p>
-      <p>Pour l'agence de conseil multimédia Nid.</p>
+      <p>Site web de l'<a href="http://ihp.fr/">Institut Henri Poincaré</a>.</p>
       <ul>
         <li>Développement Drupal</li>
         <li>Calendrier d'événements, réservation de lieux, inscription des participants</li>
@@ -721,7 +807,7 @@
     </article>
 
     <article class="icon msi">
-      <h3><a href="http://fr.msi.com">MSI France</a></h3>
+      <h3>MSI France</h3>
       <p class="date"><time datetime="2010-07-26">Juillet 2010</time></p>
       <p>Site internet corporate de <a href="http://fr.msi.com">MSI France</a>.</p>
       <p>Pour l'agence de communication Pantoine.</p>
@@ -731,7 +817,7 @@
     </article>
 
     <article class="icon historia">
-      <h3><a href="http://sauvonslhistoire.historia.fr">Historia,Sauvons l'Histoire</a></h3>
+      <h3>Historia, Sauvons l'Histoire</h3>
       <p class="date"><time datetime="2010-06-23">Juin 2010</time></p>
       <p>Site participatif <a href="http://sauvonslhistoire.historia.fr">Sauvons l'Histoire</a>.</p>
       <p>Pour le magazine <a href="http://historia.fr">Historia</a>.</p>
@@ -742,7 +828,7 @@
     </article>
 
     <article class="icon rouen">
-      <h3><a href="http://rouensurmer.fr">Rouen sur Mer 2010</a></h3>
+      <h3>Rouen sur Mer 2010</h3>
       <p class="date"><time datetime="2010-06-18">Juin 2010</time></p>
       <p>Site évènementiel <a href="http://rouensurmer.fr">Rouen sur Mer 2010</a>.</p>
       <p>Pour la <a href="http://rouen.fr">Ville de Rouen</a>.</p>
@@ -753,7 +839,7 @@
     </article>
 
     <article class="icon rouen">
-      <h3><a href="http://rouenimpressionnee.fr">Rouen Impressionnée 2010</a></h3>
+      <h3>Rouen Impressionnée 2010</h3>
       <p class="date"><time datetime="2010-06-08">Juin 2010</time></p>
       <p>Site évènementiel <a href="http://rouenimpressionnee.fr">Rouen Impressionnée</a>.</p>
       <p>Pour la <a href="http://rouen.fr">Ville de Rouen</a>.</p>
