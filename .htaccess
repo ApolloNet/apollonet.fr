@@ -72,6 +72,27 @@ DirectoryIndex index.php index.html
   AddOutputFilterByType DEFLATE application/octet-stream
 </IfModule>
 
+<IfModule mod_headers.c>
+
+  # Disable content sniffing, since it's an attack vector.
+  Header set X-Content-Type-Options "nosniff"
+
+  # CSP
+  #Header set Content-Security-Policy    "default-src 'self'"
+  #Header set X-Content-Security-Policy  "default-src 'self'"
+  #Header set X-WebKit-CSP               "default-src 'self'"
+  #Header set Content-Security-Policy    "default-src 'self'"
+
+  #HSTS
+  Header set Strict-Transport-Security  "max-age=16000000; includeSubDomains; preload"
+
+  # Avoid Clickjacking and enable XSS-protection for browsers
+  <FilesMatch "\.(pl|php|cgi|spl)$">
+    Header set X-XSS-Protection "1; mode=block"
+  </FilesMatch>
+
+</IfModule>
+
 #
 # Commenter pour gagner en perf en évitant la redir
 #

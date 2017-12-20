@@ -2,8 +2,8 @@
 <html lang="fr" dir="ltr" prefix="og: http://ogp.me/ns#">
 
 <head>
-  <title>Développeur Web Drupal Freelance | ApolloNet</title>
   <meta charset="utf-8">
+  <title>Développeur Web Drupal Freelance | ApolloNet</title>
   <meta name="geo.placename" content="Rouen, Normandie, France">
   <meta name="author" content="ApolloNet">
   <meta name="description" content="ApolloNet est située à Rouen, Normandie : Création de Site Internet, Développement Web, Intégration, Expertise CMS Drupal.">
