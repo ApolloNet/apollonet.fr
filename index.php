@@ -880,6 +880,12 @@
 
     <h2>Conférences et Ateliers</h2>
 
+    <article class="icon sudweb">
+      <h3><a href="http://www.sudweb.fr/2017" title="Site web de Sudweb 2013">La Pérennité des URL</a></h3>
+      <p class="date">Élaboratoire à Sudweb, le 20 mai 2017</p>
+      <p>Animation d'un échange ouvert autour de la pérennité des URL.</p>
+    </article>
+
     <article class="icon nwx">
       <h3><a href="http://www.nwx.fr/conference-webdesign/">Tout ce que vous avez toujours voulu savoir sur le webdesign sans jamais oser le demander</a></h3>
       <p class="date">Conférence #NWX Webdesign #1, le 2 octobre 2014.</p>
