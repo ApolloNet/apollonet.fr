@@ -96,17 +96,3 @@ DirectoryIndex index.php index.html
   Header always set X-FRAME-OPTIONS "DENY"
 
 </IfModule>
-
-#
-# Commenter pour gagner en perf en évitant la redir
-#
-# Various rewrite rules.
-# <IfModule mod_rewrite.c>
-#
-#   RewriteEngine on
-#
-#   # To redirect all users to access the site WITH the 'www.' prefix,
-#   RewriteCond %{HTTP_HOST} ^apollonet\.fr$ [NC]
-#   RewriteRule ^(.*)$ http://www.apollonet.fr/$1 [L,R=301]
-#
-# </IfModule>
