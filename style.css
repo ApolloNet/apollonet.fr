@@ -60,10 +60,12 @@ table {
 /* Elements */
 
 body {
-  max-width: 33em;
+  max-width: 44rem;
   margin: 0 auto;
   padding: 0 1rem;
-  background: #fff;
+  background-color: #fff;
+  background: linear-gradient(135deg, #fff, #eee 50%, #ddd 75%);
+  background-attachment: fixed;
   font-size: 1rem;
   line-height: 1.5;
   font-family: Georgia, serif;
@@ -72,30 +74,29 @@ body {
 
 @media (min-width: 600px) {
   body {
-    font-size: 1.3125em;
+    font-size: 1.3125rem;
   }
 }
 
 /* Blocks */
 
 p {
-  margin: 0 0 1em 0;
+  margin: 0 0 1rem 0;
 }
 
 /* Lists */
 
 ul {
-  margin: 0 0 1em 0;
+  margin: 0 0 1rem 0;
 }
 
 li {
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
 }
 
 li::before {
   content:'★';
-  font-size: 0.7em;
-  margin: 0 1em 0 0;
+  margin: 0 1rem 0 0;
 }
 
 /* Links */
@@ -159,11 +160,17 @@ header ul {
 
 header li {
   display: inline-block;
-  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
 }
 
 header li::before {
   display: none;
+}
+
+header li:focus,
+header li:hover {
+  background-color: #e9e9e9;
 }
 
 header a {
@@ -201,7 +208,7 @@ header a:hover {
 h2 {
   margin: 0 0 1rem 0;
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1.1;
   font-weight: bold;
   font-style: italic;
   color: #c40;
@@ -216,16 +223,19 @@ h2:hover {
   h2 {
     margin: 6rem 0 4rem -4rem;
     font-size: 4rem;
-    line-height: 0.8;
     color: #777;
     transition: color 2s;
+
+    background-image: url("/images/perlin.png");
+    background-clip: text;
+    color: transparent;
   }
 }
 
 /* Article */
 
 article {
-  margin: 0 0 3em 0;
+  margin: 0 0 3rem 0;
 }
 
 article:focus,
@@ -235,7 +245,7 @@ article:hover {
 
 h3 {
   margin-bottom: 0.5rem;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   line-height: 1;
   font-weight: bold;
   font-style: italic;
@@ -254,7 +264,7 @@ h3 a:hover {
 
 @media (min-width: 680px) {
   article {
-    margin: 0 0 3em 1rem;
+    margin: 0 0 3rem 1rem;
     padding: 0 0 0rem 2rem;
     border-left: 0.25rem solid #000;
     transition: border-left-color 2s;
@@ -264,7 +274,7 @@ h3 a:hover {
 /* Footer */
 
 footer {
-  margin-top: 6em;
+  margin-top: 6rem;
   color: #444;
 }
 
@@ -283,8 +293,8 @@ footer {
 
 .bouton {
   display: inline-block;
-  margin-bottom: 2em;
-  padding: 0.5em;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
   background: #c40;
   background: linear-gradient(#d50, #c40);
   border: 1px solid #b30;
@@ -301,6 +311,13 @@ footer {
   border: 1px solid #a20;
   text-shadow: 1px 1px 0 #a20;
 }
+
+.unicode {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* Plus */
 
 #references-plus {
   display: none;
