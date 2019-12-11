@@ -47,6 +47,15 @@ table {
   border-spacing:0;
 }
 
+/* Variables */
+
+:root {
+  --color-main: #069;
+  --color-main-light: #17a;
+  --color-main-dark: #058;
+  --color-main-darker: #047;
+}
+
 /* Font */
 
 @font-face {
@@ -102,7 +111,7 @@ li::before {
 /* Links */
 
 a {
-  color: #c40;
+  color: var(--color-main);
   text-decoration: underline;
 }
 
@@ -140,13 +149,12 @@ h1 {
 }
 
 h1 img {
-  margin-right: 1rem;
   width: 50px;
   height: auto;
 }
 
 h1 span {
-  color: #c40;
+  color: var(--color-main);
 }
 
 header ul,
@@ -211,12 +219,12 @@ h2 {
   line-height: 1.1;
   font-weight: bold;
   font-style: italic;
-  color: #c40;
+  color: var(--color-main);
 }
 
 h2:focus,
 h2:hover {
-  color: #c40;
+  color: var(--color-main);
 }
 
 @media (min-width: 800px) {
@@ -240,7 +248,7 @@ article {
 
 article:focus,
 article:hover {
-  border-left-color: #c40;
+  border-left-color: var(--color-main);
 }
 
 h3 {
@@ -295,21 +303,21 @@ footer {
   display: inline-block;
   margin-bottom: 2rem;
   padding: 0.5rem;
-  background: #c40;
-  background: linear-gradient(#d50, #c40);
-  border: 1px solid #b30;
+  background: var(--color-main);
+  background: linear-gradient(var(--color-main-light), var(--color-main));
+  border: 1px solid var(--color-main-dark);
   border-radius: 0.25rem;
   color: #fff;
   text-decoration: none;
-  text-shadow: 1px 1px 0 #b30;
+  text-shadow: 1px 1px 0 var(--color-main-dark);
 }
 
 .bouton:focus,
 .bouton:hover {
-  background: #b30;
-  background: linear-gradient(#c40, #b30);
-  border: 1px solid #a20;
-  text-shadow: 1px 1px 0 #a20;
+  background: var(--color-main-dark);
+  background: linear-gradient(var(--color-main), var(--color-main-dark));
+  border: 1px solid var(--color-main-darker);
+  text-shadow: 1px 1px 0 var(--color-main-darker);
 }
 
 .unicode {
