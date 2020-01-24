@@ -235,6 +235,7 @@ h2:hover {
     transition: color 2s;
 
     background-image: url("/images/perlin.png");
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
