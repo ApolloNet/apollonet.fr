@@ -79,6 +79,7 @@ body {
   line-height: 1.5;
   font-family: Georgia, serif;
   color: #000;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 600px) {
@@ -214,12 +215,12 @@ header a:hover {
 /* Section */
 
 h2 {
-  margin: 0 0 1rem 0;
   font-size: 2rem;
   line-height: 1.1;
   font-weight: bold;
   font-style: italic;
   color: var(--color-main);
+  text-shadow: none;
 }
 
 h2:focus,
@@ -229,27 +230,29 @@ h2:hover {
 
 @media (min-width: 800px) {
   h2 {
-    margin: 6rem 0 4rem -4rem;
+    margin: 4rem 0 2rem -4rem;
     font-size: 4rem;
     color: #777;
-    transition: color 2s;
-
     background-image: url("/images/perlin.png");
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    transition: color 2s;
   }
 }
 
 /* Article */
 
 article {
-  margin: 0 0 3rem 0;
+  padding: 2rem 2rem 1rem 2rem;
+  background: linear-gradient(transparent);
+  border-radius: 0.5rem;
+  transition: background 2s;
 }
 
 article:focus,
 article:hover {
-  border-left-color: var(--color-main);
+  background: linear-gradient(135deg, #fff, transparent 20%, transparent 80%, #ddd 100%);
 }
 
 h3 {
@@ -269,15 +272,6 @@ h3 a {
 h3 a:focus,
 h3 a:hover {
   text-decoration: underline;
-}
-
-@media (min-width: 680px) {
-  article {
-    margin: 0 0 3rem 1rem;
-    padding: 0 0 0rem 2rem;
-    border-left: 0.25rem solid #000;
-    transition: border-left-color 2s;
-  }
 }
 
 /* Footer */
@@ -300,10 +294,10 @@ footer {
   color: #444;
 }
 
-.bouton {
+.button {
   display: inline-block;
   margin-bottom: 2rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   background: var(--color-main);
   background: linear-gradient(var(--color-main-light), var(--color-main));
   border: 1px solid var(--color-main-dark);
@@ -313,8 +307,8 @@ footer {
   text-shadow: 1px 1px 0 var(--color-main-dark);
 }
 
-.bouton:focus,
-.bouton:hover {
+.button:focus,
+.button:hover {
   background: var(--color-main-dark);
   background: linear-gradient(var(--color-main), var(--color-main-dark));
   border: 1px solid var(--color-main-darker);
@@ -328,10 +322,10 @@ footer {
 
 /* Plus */
 
-#references-plus {
+#experiences-plus {
   display: none;
 }
 
-#references-plus:target {
+#experiences-plus:target {
   display: block;
 }
